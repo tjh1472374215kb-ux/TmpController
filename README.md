@@ -1,2 +1,1 @@
-# TmpController
-Temperature Controller
+# About Temperature Controller
