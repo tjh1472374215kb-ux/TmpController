@@ -1,0 +1,2195 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html><head>
+<title>Static Call Graph - [.\Objects\TmpController.axf]</title></head>
+<body><HR>
+<H1>Static Call Graph for image .\Objects\TmpController.axf</H1><HR>
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060960: Last Updated: Mon Sep 01 18:13:55 2025
+<BR><P>
+<H3>Maximum Stack Usage =        160 bytes + Unknown(Functions without stacksize, Cycles, Untraceable Function Pointers)</H3><H3>
+Call chain for Maximum Stack Depth:</H3>
+__rt_entry_main &rArr; main &rArr; MappPowerOn &rArr; SetCodeInitial &rArr; SetOutpTmpToRef &rArr; SetHeatTmpToRef &rArr; __aeabi_idivmod
+<P>
+<H3>
+Functions with no stack information
+</H3><UL>
+ <LI><a href="#[79]">__user_initial_stackheap</a>
+</UL>
+</UL>
+<P>
+<H3>
+Mutually Recursive functions
+</H3> <LI><a href="#[39]">NMI_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[39]">NMI_Handler</a><BR>
+ <LI><a href="#[3a]">HardFault_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[3a]">HardFault_Handler</a><BR>
+ <LI><a href="#[3b]">SVC_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[3b]">SVC_Handler</a><BR>
+ <LI><a href="#[3c]">PendSV_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[3c]">PendSV_Handler</a><BR>
+ <LI><a href="#[50]">Reserved_IRQHandler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[50]">Reserved_IRQHandler</a><BR>
+ <LI><a href="#[45]">ACMP_IRQHandler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[45]">ACMP_IRQHandler</a><BR>
+</UL>
+<P>
+<H3>
+Function Pointers
+</H3><UL>
+ <LI><a href="#[45]">ACMP_IRQHandler</a> from startup_cms32m67xx.o(.text) referenced from startup_cms32m67xx.o(RESET)
+ <LI><a href="#[46]">ADC_IRQHandler</a> from startup_cms32m67xx.o(.text) referenced from startup_cms32m67xx.o(RESET)
+ <LI><a href="#[44]">CCP_IRQHandler</a> from startup_cms32m67xx.o(.text) referenced from startup_cms32m67xx.o(RESET)
+ <LI><a href="#[4b]">EPWM_IRQHandler</a> from startup_cms32m67xx.o(.text) referenced from startup_cms32m67xx.o(RESET)
+ <LI><a href="#[55]">FMC_IRQHandler</a> from startup_cms32m67xx.o(.text) referenced from startup_cms32m67xx.o(RESET)
+ <LI><a href="#[4e]">HALL_IRQHandler</a> from startup_cms32m67xx.o(.text) referenced from startup_cms32m67xx.o(RESET)
+ <LI><a href="#[3a]">HardFault_Handler</a> from startup_cms32m67xx.o(.text) referenced from startup_cms32m67xx.o(RESET)
+ <LI><a href="#[48]">I2C0_IRQHandler</a> from startup_cms32m67xx.o(.text) referenced from startup_cms32m67xx.o(RESET)
+ <LI><a href="#[3f]">INTP0_IRQHandler</a> from startup_cms32m67xx.o(.text) referenced from startup_cms32m67xx.o(RESET)
+ <LI><a href="#[40]">INTP1_IRQHandler</a> from startup_cms32m67xx.o(.text) referenced from startup_cms32m67xx.o(RESET)
+ <LI><a href="#[41]">INTP2_IRQHandler</a> from startup_cms32m67xx.o(.text) referenced from startup_cms32m67xx.o(RESET)
+ <LI><a href="#[42]">INTP3_IRQHandler</a> from startup_cms32m67xx.o(.text) referenced from startup_cms32m67xx.o(RESET)
+ <LI><a href="#[4f]">LSITIMER_IRQHandler</a> from startup_cms32m67xx.o(.text) referenced from startup_cms32m67xx.o(RESET)
+ <LI><a href="#[3e]">LVI_IRQHandler</a> from mappmain.o(i.LVI_IRQHandler) referenced from startup_cms32m67xx.o(RESET)
+ <LI><a href="#[39]">NMI_Handler</a> from startup_cms32m67xx.o(.text) referenced from startup_cms32m67xx.o(RESET)
+ <LI><a href="#[3c]">PendSV_Handler</a> from startup_cms32m67xx.o(.text) referenced from startup_cms32m67xx.o(RESET)
+ <LI><a href="#[50]">Reserved_IRQHandler</a> from startup_cms32m67xx.o(.text) referenced 9 times from startup_cms32m67xx.o(RESET)
+ <LI><a href="#[38]">Reset_Handler</a> from startup_cms32m67xx.o(.text) referenced from startup_cms32m67xx.o(RESET)
+ <LI><a href="#[47]">SSP0_IRQHandler</a> from startup_cms32m67xx.o(.text) referenced from startup_cms32m67xx.o(RESET)
+ <LI><a href="#[3b]">SVC_Handler</a> from startup_cms32m67xx.o(.text) referenced from startup_cms32m67xx.o(RESET)
+ <LI><a href="#[23]">SetCascadeSwon</a> from mappmenu.o(i.SetCascadeSwon) referenced 2 times from mappmenu.o(.data)
+ <LI><a href="#[27]">SetCommAddr</a> from mappmenu.o(i.SetCommAddr) referenced 2 times from mappmenu.o(.data)
+ <LI><a href="#[29]">SetCommFormat</a> from mappmenu.o(i.SetCommFormat) referenced 2 times from mappmenu.o(.data)
+ <LI><a href="#[2a]">SetCommMode</a> from mappmenu.o(i.SetCommMode) referenced 2 times from mappmenu.o(.data)
+ <LI><a href="#[28]">SetCommSpeed</a> from mappmenu.o(i.SetCommSpeed) referenced 2 times from mappmenu.o(.data)
+ <LI><a href="#[2b]">SetCommTimer</a> from mappmenu.o(i.SetCommTimer) referenced 2 times from mappmenu.o(.data)
+ <LI><a href="#[5]">SetControlMode</a> from mappmenu.o(i.SetControlMode) referenced 2 times from mappmenu.o(.data)
+ <LI><a href="#[1e]">SetCoolAccRate</a> from mappmenu.o(i.SetCoolAccRate) referenced 2 times from mappmenu.o(.data)
+ <LI><a href="#[22]">SetCoolAnlgErr</a> from mappmenu.o(i.SetCoolAnlgErr) referenced 2 times from mappmenu.o(.data)
+ <LI><a href="#[20]">SetCoolAnlgMax</a> from mappmenu.o(i.SetCoolAnlgMax) referenced 2 times from mappmenu.o(.data)
+ <LI><a href="#[21]">SetCoolAnlgMin</a> from mappmenu.o(i.SetCoolAnlgMin) referenced 2 times from mappmenu.o(.data)
+ <LI><a href="#[1f]">SetCoolDecRate</a> from mappmenu.o(i.SetCoolDecRate) referenced 2 times from mappmenu.o(.data)
+ <LI><a href="#[1c]">SetCoolOutput</a> from mappmenu.o(i.SetCoolOutput) referenced 2 times from mappmenu.o(.data)
+ <LI><a href="#[1d]">SetCoolPeriod</a> from mappmenu.o(i.SetCoolPeriod) referenced 2 times from mappmenu.o(.data)
+ <LI><a href="#[24]">SetCscdT2Limit</a> from mappmenu.o(i.SetCscdT2Limit) referenced 2 times from mappmenu.o(.data)
+ <LI><a href="#[6]">SetCtrlMethod</a> from mappmenu.o(i.SetCtrlMethod) referenced 2 times from mappmenu.o(.data)
+ <LI><a href="#[13]">SetCtrlStyle</a> from mappmenu.o(i.SetCtrlStyle) referenced 2 times from mappmenu.o(.data)
+ <LI><a href="#[10]">SetDnErrWarn</a> from mappmenu.o(i.SetDnErrWarn) referenced 2 times from mappmenu.o(.data)
+ <LI><a href="#[e]">SetDnLmtWarn</a> from mappmenu.o(i.SetDnLmtWarn) referenced 2 times from mappmenu.o(.data)
+ <LI><a href="#[25]">SetErrCorrectedV</a> from mappmenu.o(i.SetErrCorrectedV) referenced 2 times from mappmenu.o(.data)
+ <LI><a href="#[17]">SetHeatAccRate</a> from mappmenu.o(i.SetHeatAccRate) referenced 2 times from mappmenu.o(.data)
+ <LI><a href="#[1b]">SetHeatAnlgErr</a> from mappmenu.o(i.SetHeatAnlgErr) referenced 2 times from mappmenu.o(.data)
+ <LI><a href="#[19]">SetHeatAnlgMax</a> from mappmenu.o(i.SetHeatAnlgMax) referenced 2 times from mappmenu.o(.data)
+ <LI><a href="#[1a]">SetHeatAnlgMin</a> from mappmenu.o(i.SetHeatAnlgMin) referenced 2 times from mappmenu.o(.data)
+ <LI><a href="#[14]">SetHeatCoolErr</a> from mappmenu.o(i.SetHeatCoolErr) referenced 2 times from mappmenu.o(.data)
+ <LI><a href="#[18]">SetHeatDecRate</a> from mappmenu.o(i.SetHeatDecRate) referenced 2 times from mappmenu.o(.data)
+ <LI><a href="#[15]">SetHeatOutput</a> from mappmenu.o(i.SetHeatOutput) referenced 2 times from mappmenu.o(.data)
+ <LI><a href="#[16]">SetHeatPeriod</a> from mappmenu.o(i.SetHeatPeriod) referenced 2 times from mappmenu.o(.data)
+ <LI><a href="#[c]">SetInnerTemp</a> from mappmenu.o(i.SetInnerTemp) referenced 2 times from mappmenu.o(.data)
+ <LI><a href="#[2e]">SetMnVertion</a> from mappmenu.o(i.SetMnVertion) referenced 2 times from mappmenu.o(.data)
+ <LI><a href="#[2c]">SetRstDefault</a> from mappmenu.o(i.SetRstDefault) referenced 2 times from mappmenu.o(.data)
+ <LI><a href="#[9]">SetSensorType</a> from mappmenu.o(i.SetSensorType) referenced 2 times from mappmenu.o(.data)
+ <LI><a href="#[2d]">SetSwVertion</a> from mappmenu.o(i.SetSwVertion) referenced 2 times from mappmenu.o(.data)
+ <LI><a href="#[26]">SetTemperatxUnit</a> from mappmenu.o(i.SetTemperatxUnit) referenced 2 times from mappmenu.o(.data)
+ <LI><a href="#[b]">SetTmpDnLimit</a> from mappmenu.o(i.SetTmpDnLimit) referenced 2 times from mappmenu.o(.data)
+ <LI><a href="#[8]">SetTmpSetLock</a> from mappmenu.o(i.SetTmpSetLock) referenced 2 times from mappmenu.o(.data)
+ <LI><a href="#[a]">SetTmpUpLimit</a> from mappmenu.o(i.SetTmpUpLimit) referenced 2 times from mappmenu.o(.data)
+ <LI><a href="#[f]">SetUpErrWarn</a> from mappmenu.o(i.SetUpErrWarn) referenced 2 times from mappmenu.o(.data)
+ <LI><a href="#[d]">SetUpLmtWarn</a> from mappmenu.o(i.SetUpLmtWarn) referenced 2 times from mappmenu.o(.data)
+ <LI><a href="#[11]">SetWarnReset</a> from mappmenu.o(i.SetWarnReset) referenced 2 times from mappmenu.o(.data)
+ <LI><a href="#[12]">SetWarnSwitch</a> from mappmenu.o(i.SetWarnSwitch) referenced 2 times from mappmenu.o(.data)
+ <LI><a href="#[7]">SetXRunSwitch</a> from mappmenu.o(i.SetXRunSwitch) referenced 2 times from mappmenu.o(.data)
+ <LI><a href="#[31]">SetqPID01Kd</a> from mappmenu.o(i.SetqPID01Kd) referenced 2 times from mappmenu.o(.data)
+ <LI><a href="#[30]">SetqPID01Ki</a> from mappmenu.o(i.SetqPID01Ki) referenced 2 times from mappmenu.o(.data)
+ <LI><a href="#[2f]">SetqPID01Kp</a> from mappmenu.o(i.SetqPID01Kp) referenced 2 times from mappmenu.o(.data)
+ <LI><a href="#[34]">SetqPID02Kd</a> from mappmenu.o(i.SetqPID02Kd) referenced 2 times from mappmenu.o(.data)
+ <LI><a href="#[33]">SetqPID02Ki</a> from mappmenu.o(i.SetqPID02Ki) referenced 2 times from mappmenu.o(.data)
+ <LI><a href="#[32]">SetqPID02Kp</a> from mappmenu.o(i.SetqPID02Kp) referenced 2 times from mappmenu.o(.data)
+ <LI><a href="#[37]">SetqPID11Kd</a> from mappmenu.o(i.SetqPID11Kd) referenced 4 times from mappmenu.o(.data)
+ <LI><a href="#[36]">SetqPID11Ki</a> from mappmenu.o(i.SetqPID11Ki) referenced 4 times from mappmenu.o(.data)
+ <LI><a href="#[35]">SetqPID11Kp</a> from mappmenu.o(i.SetqPID11Kp) referenced 4 times from mappmenu.o(.data)
+ <LI><a href="#[3d]">SysTick_Handler</a> from mappmain.o(i.SysTick_Handler) referenced from startup_cms32m67xx.o(RESET)
+ <LI><a href="#[56]">SystemInit</a> from system_cms32m67xx.o(i.SystemInit) referenced from startup_cms32m67xx.o(.text)
+ <LI><a href="#[4c]">TIMER0_IRQHandler</a> from mctrlmain.o(i.TIMER0_IRQHandler) referenced from startup_cms32m67xx.o(RESET)
+ <LI><a href="#[4d]">TIMER1_IRQHandler</a> from startup_cms32m67xx.o(.text) referenced from startup_cms32m67xx.o(RESET)
+ <LI><a href="#[51]">TM00_IRQHandler</a> from startup_cms32m67xx.o(.text) referenced from startup_cms32m67xx.o(RESET)
+ <LI><a href="#[43]">TM01H_IRQHandler</a> from startup_cms32m67xx.o(.text) referenced from startup_cms32m67xx.o(RESET)
+ <LI><a href="#[52]">TM01_IRQHandler</a> from startup_cms32m67xx.o(.text) referenced from startup_cms32m67xx.o(RESET)
+ <LI><a href="#[53]">TM02_IRQHandler</a> from startup_cms32m67xx.o(.text) referenced from startup_cms32m67xx.o(RESET)
+ <LI><a href="#[54]">TM03_IRQHandler</a> from startup_cms32m67xx.o(.text) referenced from startup_cms32m67xx.o(RESET)
+ <LI><a href="#[49]">UART0_IRQHandler</a> from startup_cms32m67xx.o(.text) referenced from startup_cms32m67xx.o(RESET)
+ <LI><a href="#[4a]">UART1_IRQHandler</a> from mappcomm.o(i.UART1_IRQHandler) referenced from startup_cms32m67xx.o(RESET)
+ <LI><a href="#[58]">__main</a> from __main.o(!!!main) referenced from startup_cms32m67xx.o(.text)
+</UL>
+<P>
+<H3>
+Global Symbols
+</H3>
+<P><STRONG><a name="[58]"></a>__main</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, __main.o(!!!main))
+<BR><BR>[Calls]<UL><LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload
+<LI><a href="#[5a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry
+</UL>
+
+<P><STRONG><a name="[59]"></a>__scatterload</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __scatter.o(!!!scatter))
+<BR><BR>[Called By]<UL><LI><a href="#[58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__main
+</UL>
+
+<P><STRONG><a name="[5b]"></a>__scatterload_rt2</STRONG> (Thumb, 52 bytes, Stack size unknown bytes, __scatter.o(!!!scatter), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[5a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry
+</UL>
+
+<P><STRONG><a name="[113]"></a>__scatterload_rt2_thumb_only</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __scatter.o(!!!scatter), UNUSED)
+
+<P><STRONG><a name="[114]"></a>__scatterload_null</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __scatter.o(!!!scatter), UNUSED)
+
+<P><STRONG><a name="[115]"></a>__scatterload_zeroinit</STRONG> (Thumb, 28 bytes, Stack size unknown bytes, __scatter_zi.o(!!handler_zi), UNUSED)
+
+<P><STRONG><a name="[5f]"></a>__rt_lib_init</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit.o(.ARM.Collect$$libinit$$00000000))
+<BR><BR>[Called By]<UL><LI><a href="#[5e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry_li
+</UL>
+
+<P><STRONG><a name="[116]"></a>__rt_lib_init_alloca_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000002E))
+
+<P><STRONG><a name="[117]"></a>__rt_lib_init_argv_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000002C))
+
+<P><STRONG><a name="[118]"></a>__rt_lib_init_atexit_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000001B))
+
+<P><STRONG><a name="[119]"></a>__rt_lib_init_clock_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000021))
+
+<P><STRONG><a name="[11a]"></a>__rt_lib_init_cpp_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000032))
+
+<P><STRONG><a name="[11b]"></a>__rt_lib_init_exceptions_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000030))
+
+<P><STRONG><a name="[11c]"></a>__rt_lib_init_fp_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000002))
+
+<P><STRONG><a name="[11d]"></a>__rt_lib_init_fp_trap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000001F))
+
+<P><STRONG><a name="[11e]"></a>__rt_lib_init_getenv_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000023))
+
+<P><STRONG><a name="[11f]"></a>__rt_lib_init_heap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000000A))
+
+<P><STRONG><a name="[120]"></a>__rt_lib_init_lc_collate_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000011))
+
+<P><STRONG><a name="[121]"></a>__rt_lib_init_lc_ctype_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000013))
+
+<P><STRONG><a name="[122]"></a>__rt_lib_init_lc_monetary_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000015))
+
+<P><STRONG><a name="[123]"></a>__rt_lib_init_lc_numeric_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000017))
+
+<P><STRONG><a name="[124]"></a>__rt_lib_init_lc_time_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000019))
+
+<P><STRONG><a name="[125]"></a>__rt_lib_init_preinit_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000004))
+
+<P><STRONG><a name="[126]"></a>__rt_lib_init_rand_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000000E))
+
+<P><STRONG><a name="[127]"></a>__rt_lib_init_return</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000033))
+
+<P><STRONG><a name="[128]"></a>__rt_lib_init_signal_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000001D))
+
+<P><STRONG><a name="[129]"></a>__rt_lib_init_stdio_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000025))
+
+<P><STRONG><a name="[12a]"></a>__rt_lib_init_user_alloc_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000000C))
+
+<P><STRONG><a name="[64]"></a>__rt_lib_shutdown</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown.o(.ARM.Collect$$libshutdown$$00000000))
+<BR><BR>[Called By]<UL><LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_exit_ls
+</UL>
+
+<P><STRONG><a name="[12b]"></a>__rt_lib_shutdown_cpp_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000004))
+
+<P><STRONG><a name="[12c]"></a>__rt_lib_shutdown_fini_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000002))
+
+<P><STRONG><a name="[12d]"></a>__rt_lib_shutdown_fp_trap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000009))
+
+<P><STRONG><a name="[12e]"></a>__rt_lib_shutdown_heap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000011))
+
+<P><STRONG><a name="[12f]"></a>__rt_lib_shutdown_return</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000012))
+
+<P><STRONG><a name="[130]"></a>__rt_lib_shutdown_signal_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$0000000C))
+
+<P><STRONG><a name="[131]"></a>__rt_lib_shutdown_stdio_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000006))
+
+<P><STRONG><a name="[132]"></a>__rt_lib_shutdown_user_alloc_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$0000000E))
+
+<P><STRONG><a name="[5a]"></a>__rt_entry</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry.o(.ARM.Collect$$rtentry$$00000000))
+<BR><BR>[Called By]<UL><LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload_rt2
+<LI><a href="#[58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__main
+</UL>
+
+<P><STRONG><a name="[133]"></a>__rt_entry_presh_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$00000002))
+
+<P><STRONG><a name="[5c]"></a>__rt_entry_sh</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry4.o(.ARM.Collect$$rtentry$$00000004))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8 + Unknown Stack Size
+<LI>Call Chain = __rt_entry_sh &rArr; __user_setup_stackheap
+</UL>
+<BR>[Calls]<UL><LI><a href="#[5d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__user_setup_stackheap
+</UL>
+
+<P><STRONG><a name="[5e]"></a>__rt_entry_li</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$0000000A))
+<BR><BR>[Calls]<UL><LI><a href="#[5f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_init
+</UL>
+
+<P><STRONG><a name="[134]"></a>__rt_entry_postsh_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$00000009))
+
+<P><STRONG><a name="[60]"></a>__rt_entry_main</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$0000000D))
+<BR><BR>[Stack]<UL><LI>Max Depth = 160 + Unknown Stack Size
+<LI>Call Chain = __rt_entry_main &rArr; main &rArr; MappPowerOn &rArr; SetCodeInitial &rArr; SetOutpTmpToRef &rArr; SetHeatTmpToRef &rArr; __aeabi_idivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+<LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;exit
+</UL>
+
+<P><STRONG><a name="[135]"></a>__rt_entry_postli_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$0000000C))
+
+<P><STRONG><a name="[7b]"></a>__rt_exit</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rtexit.o(.ARM.Collect$$rtexit$$00000000))
+<BR><BR>[Called By]<UL><LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;exit
+</UL>
+
+<P><STRONG><a name="[63]"></a>__rt_exit_ls</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rtexit2.o(.ARM.Collect$$rtexit$$00000003))
+<BR><BR>[Calls]<UL><LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_shutdown
+</UL>
+
+<P><STRONG><a name="[136]"></a>__rt_exit_prels_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rtexit2.o(.ARM.Collect$$rtexit$$00000002))
+
+<P><STRONG><a name="[65]"></a>__rt_exit_exit</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rtexit2.o(.ARM.Collect$$rtexit$$00000004))
+<BR><BR>[Calls]<UL><LI><a href="#[66]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_sys_exit
+</UL>
+
+<P><STRONG><a name="[38]"></a>Reset_Handler</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, startup_cms32m67xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_cms32m67xx.o(RESET)
+</UL>
+<P><STRONG><a name="[39]"></a>NMI_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_cms32m67xx.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[39]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NMI_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[39]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NMI_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_cms32m67xx.o(RESET)
+</UL>
+<P><STRONG><a name="[3a]"></a>HardFault_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_cms32m67xx.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[3a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HardFault_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HardFault_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_cms32m67xx.o(RESET)
+</UL>
+<P><STRONG><a name="[3b]"></a>SVC_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_cms32m67xx.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[3b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SVC_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SVC_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_cms32m67xx.o(RESET)
+</UL>
+<P><STRONG><a name="[3c]"></a>PendSV_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_cms32m67xx.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[3c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PendSV_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PendSV_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_cms32m67xx.o(RESET)
+</UL>
+<P><STRONG><a name="[50]"></a>Reserved_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_cms32m67xx.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Reserved_IRQHandler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Reserved_IRQHandler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_cms32m67xx.o(RESET)
+</UL>
+<P><STRONG><a name="[45]"></a>ACMP_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_cms32m67xx.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[45]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ACMP_IRQHandler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[45]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ACMP_IRQHandler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_cms32m67xx.o(RESET)
+</UL>
+<P><STRONG><a name="[46]"></a>ADC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_cms32m67xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_cms32m67xx.o(RESET)
+</UL>
+<P><STRONG><a name="[44]"></a>CCP_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_cms32m67xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_cms32m67xx.o(RESET)
+</UL>
+<P><STRONG><a name="[4b]"></a>EPWM_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_cms32m67xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_cms32m67xx.o(RESET)
+</UL>
+<P><STRONG><a name="[55]"></a>FMC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_cms32m67xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_cms32m67xx.o(RESET)
+</UL>
+<P><STRONG><a name="[4e]"></a>HALL_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_cms32m67xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_cms32m67xx.o(RESET)
+</UL>
+<P><STRONG><a name="[48]"></a>I2C0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_cms32m67xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_cms32m67xx.o(RESET)
+</UL>
+<P><STRONG><a name="[3f]"></a>INTP0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_cms32m67xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_cms32m67xx.o(RESET)
+</UL>
+<P><STRONG><a name="[40]"></a>INTP1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_cms32m67xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_cms32m67xx.o(RESET)
+</UL>
+<P><STRONG><a name="[41]"></a>INTP2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_cms32m67xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_cms32m67xx.o(RESET)
+</UL>
+<P><STRONG><a name="[42]"></a>INTP3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_cms32m67xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_cms32m67xx.o(RESET)
+</UL>
+<P><STRONG><a name="[4f]"></a>LSITIMER_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_cms32m67xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_cms32m67xx.o(RESET)
+</UL>
+<P><STRONG><a name="[47]"></a>SSP0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_cms32m67xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_cms32m67xx.o(RESET)
+</UL>
+<P><STRONG><a name="[4d]"></a>TIMER1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_cms32m67xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_cms32m67xx.o(RESET)
+</UL>
+<P><STRONG><a name="[51]"></a>TM00_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_cms32m67xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_cms32m67xx.o(RESET)
+</UL>
+<P><STRONG><a name="[43]"></a>TM01H_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_cms32m67xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_cms32m67xx.o(RESET)
+</UL>
+<P><STRONG><a name="[52]"></a>TM01_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_cms32m67xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_cms32m67xx.o(RESET)
+</UL>
+<P><STRONG><a name="[53]"></a>TM02_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_cms32m67xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_cms32m67xx.o(RESET)
+</UL>
+<P><STRONG><a name="[54]"></a>TM03_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_cms32m67xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_cms32m67xx.o(RESET)
+</UL>
+<P><STRONG><a name="[49]"></a>UART0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_cms32m67xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_cms32m67xx.o(RESET)
+</UL>
+<P><STRONG><a name="[79]"></a>__user_initial_stackheap</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, startup_cms32m67xx.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[5d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__user_setup_stackheap
+</UL>
+
+<P><STRONG><a name="[137]"></a>__aeabi_uidiv</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, aeabi_sdiv.o(.text), UNUSED)
+
+<P><STRONG><a name="[c0]"></a>__aeabi_uidivmod</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, aeabi_sdiv.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetOutpDACxV
+<LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetCommBaudrate
+<LI><a href="#[bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;InitTempRamp
+</UL>
+
+<P><STRONG><a name="[138]"></a>__aeabi_idiv</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, aeabi_sdiv.o(.text), UNUSED)
+
+<P><STRONG><a name="[89]"></a>__aeabi_idivmod</STRONG> (Thumb, 326 bytes, Stack size 8 bytes, aeabi_sdiv.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = __aeabi_idivmod
+</UL>
+<BR>[Called By]<UL><LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetRxINTmpToSub
+<LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MenuTime1000MS
+<LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MappMenu100MS
+<LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DispShowFrc2
+<LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DispShowFrc1
+<LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DispErrorCode
+<LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetErrorCode
+<LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetHeatTmpToRef
+<LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetHeatTmpToFed
+<LI><a href="#[f5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetCoolTmpToRef
+<LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetCoolTmpToFed
+<LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DispShowNum2
+<LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DispShowNum1
+<LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetUpDnErrWarnQv
+<LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetHeatCoolErrQv
+<LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;InitPidParm
+<LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DispMenuPswd
+<LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DispMenuNum2
+<LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DispMenuNum1
+<LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DispMenuFunc
+<LI><a href="#[a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetTmpUpLimit
+<LI><a href="#[b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetTmpDnLimit
+<LI><a href="#[26]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetTemperatxUnit
+<LI><a href="#[9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetSensorType
+<LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Menu_MainShow
+<LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LHA7918_LB
+<LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CalcPoint
+</UL>
+
+<P><STRONG><a name="[139]"></a>__use_two_region_memory</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, heapauxi.o(.text), UNUSED)
+
+<P><STRONG><a name="[13a]"></a>__rt_heap_escrow$2region</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, heapauxi.o(.text), UNUSED)
+
+<P><STRONG><a name="[13b]"></a>__rt_heap_expand$2region</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, heapauxi.o(.text), UNUSED)
+
+<P><STRONG><a name="[eb]"></a>__aeabi_d2f</STRONG> (Thumb, 0 bytes, Stack size 12 bytes, d2f.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = __aeabi_d2f
+</UL>
+<BR>[Called By]<UL><LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RTD_Panel_Calc
+</UL>
+
+<P><STRONG><a name="[13c]"></a>_d2f</STRONG> (Thumb, 120 bytes, Stack size 12 bytes, d2f.o(.text), UNUSED)
+
+<P><STRONG><a name="[13d]"></a>__aeabi_dadd</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, daddsub.o(.text), UNUSED)
+
+<P><STRONG><a name="[67]"></a>_dadd</STRONG> (Thumb, 26 bytes, Stack size 8 bytes, daddsub.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_dsub1
+<LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_dadd1
+</UL>
+
+<P><STRONG><a name="[13e]"></a>__aeabi_dsub</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, daddsub.o(.text), UNUSED)
+
+<P><STRONG><a name="[6a]"></a>_dsub</STRONG> (Thumb, 22 bytes, Stack size 8 bytes, daddsub.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_dsub1
+<LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_dadd1
+</UL>
+
+<P><STRONG><a name="[e9]"></a>__aeabi_drsub</STRONG> (Thumb, 0 bytes, Stack size 16 bytes, daddsub.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = __aeabi_drsub
+</UL>
+<BR>[Called By]<UL><LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RTD_Panel_Calc
+</UL>
+
+<P><STRONG><a name="[6b]"></a>_drsb</STRONG> (Thumb, 28 bytes, Stack size 16 bytes, daddsub.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_dsub1
+<LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_dadd1
+</UL>
+
+<P><STRONG><a name="[ea]"></a>__aeabi_ddiv</STRONG> (Thumb, 0 bytes, Stack size 64 bytes, ddiv.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = __aeabi_ddiv
+</UL>
+<BR>[Called By]<UL><LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RTD_Panel_Calc
+</UL>
+
+<P><STRONG><a name="[6d]"></a>_ddiv</STRONG> (Thumb, 1072 bytes, Stack size 64 bytes, ddiv.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[6c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_drdiv
+</UL>
+
+<P><STRONG><a name="[6c]"></a>_drdiv</STRONG> (Thumb, 20 bytes, Stack size 16 bytes, ddiv.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[6d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_ddiv
+</UL>
+
+<P><STRONG><a name="[e8]"></a>__aeabi_d2iz</STRONG> (Thumb, 0 bytes, Stack size 12 bytes, dfixi.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = __aeabi_d2iz
+</UL>
+<BR>[Called By]<UL><LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TC_Panel_Calc
+<LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RTD_Panel_Calc
+</UL>
+
+<P><STRONG><a name="[13f]"></a>_dfix</STRONG> (Thumb, 98 bytes, Stack size 12 bytes, dfixi.o(.text), UNUSED)
+
+<P><STRONG><a name="[6f]"></a>__aeabi_i2d_normalise</STRONG> (Thumb, 66 bytes, Stack size 0 bytes, dflti.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[70]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ui2d
+<LI><a href="#[6e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_i2d
+</UL>
+
+<P><STRONG><a name="[6e]"></a>__aeabi_i2d</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, dflti.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_i2d_normalise
+</UL>
+<BR>[Called By]<UL><LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TC_Panel_Calc
+<LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RTD_Panel_Calc
+</UL>
+
+<P><STRONG><a name="[140]"></a>_dflt</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, dflti.o(.text), UNUSED)
+
+<P><STRONG><a name="[70]"></a>__aeabi_ui2d</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, dflti.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_i2d_normalise
+</UL>
+
+<P><STRONG><a name="[141]"></a>_dfltu</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, dflti.o(.text), UNUSED)
+
+<P><STRONG><a name="[e7]"></a>__aeabi_dmul</STRONG> (Thumb, 0 bytes, Stack size 56 bytes, dmul.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = __aeabi_dmul
+</UL>
+<BR>[Called By]<UL><LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TC_Panel_Calc
+<LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RTD_Panel_Calc
+</UL>
+
+<P><STRONG><a name="[142]"></a>_dmul</STRONG> (Thumb, 558 bytes, Stack size 56 bytes, dmul.o(.text), UNUSED)
+
+<P><STRONG><a name="[93]"></a>__aeabi_f2iz</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, ffixi.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = __aeabi_f2iz
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MappMenu100MS
+<LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CalcTempValue
+<LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LHA7918_LB
+</UL>
+
+<P><STRONG><a name="[143]"></a>_ffix</STRONG> (Thumb, 76 bytes, Stack size 8 bytes, ffixi.o(.text), UNUSED)
+
+<P><STRONG><a name="[8e]"></a>__aeabi_f2uiz</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, ffixui.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CalcTempValue
+</UL>
+
+<P><STRONG><a name="[144]"></a>_ffixu</STRONG> (Thumb, 48 bytes, Stack size 0 bytes, ffixui.o(.text), UNUSED)
+
+<P><STRONG><a name="[72]"></a>__aeabi_i2f_normalise</STRONG> (Thumb, 72 bytes, Stack size 0 bytes, fflti.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ui2f
+<LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_i2f
+</UL>
+
+<P><STRONG><a name="[71]"></a>__aeabi_i2f</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, fflti.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_i2f_normalise
+</UL>
+<BR>[Called By]<UL><LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CalcTempValue
+<LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LHA7918_LB
+</UL>
+
+<P><STRONG><a name="[145]"></a>_fflt</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, fflti.o(.text), UNUSED)
+
+<P><STRONG><a name="[73]"></a>__aeabi_ui2f</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, fflti.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_i2f_normalise
+</UL>
+<BR>[Called By]<UL><LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CalcTempValue
+</UL>
+
+<P><STRONG><a name="[146]"></a>_ffltu</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, fflti.o(.text), UNUSED)
+
+<P><STRONG><a name="[74]"></a>__fpl_fcmp_InfNaN</STRONG> (Thumb, 96 bytes, Stack size 8 bytes, fcmpin.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[76]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__fpl_fcheck_NaN2
+<LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__fpl_cmpreturn
+</UL>
+<BR>[Called By]<UL><LI><a href="#[110]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fcmple
+</UL>
+
+<P><STRONG><a name="[75]"></a>__fpl_cmpreturn</STRONG> (Thumb, 46 bytes, Stack size 0 bytes, cmpret.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__fpl_return_NaN
+<LI><a href="#[74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__fpl_fcmp_InfNaN
+</UL>
+
+<P><STRONG><a name="[76]"></a>__fpl_fcheck_NaN2</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, fnan2.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__fpl_return_NaN
+</UL>
+<BR>[Called By]<UL><LI><a href="#[74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__fpl_fcmp_InfNaN
+</UL>
+
+<P><STRONG><a name="[5d]"></a>__user_setup_stackheap</STRONG> (Thumb, 62 bytes, Stack size 8 bytes, sys_stackheap_outer.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8 + Unknown Stack Size
+<LI>Call Chain = __user_setup_stackheap
+</UL>
+<BR>[Calls]<UL><LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__user_initial_stackheap
+<LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__user_perproc_libspace
+</UL>
+<BR>[Called By]<UL><LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry_sh
+</UL>
+
+<P><STRONG><a name="[62]"></a>exit</STRONG> (Thumb, 16 bytes, Stack size 8 bytes, exit.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8 + Unknown Stack Size
+<LI>Call Chain = exit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_exit
+<LI><a href="#[7a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_call_atexit_fns (Weak Reference)
+</UL>
+<BR>[Called By]<UL><LI><a href="#[60]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry_main
+</UL>
+
+<P><STRONG><a name="[77]"></a>__fpl_return_NaN</STRONG> (Thumb, 94 bytes, Stack size 8 bytes, retnan.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__fpl_cmpreturn
+</UL>
+<BR>[Called By]<UL><LI><a href="#[76]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__fpl_fcheck_NaN2
+</UL>
+
+<P><STRONG><a name="[147]"></a>__user_libspace</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, libspace.o(.text), UNUSED)
+
+<P><STRONG><a name="[78]"></a>__user_perproc_libspace</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, libspace.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[5d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__user_setup_stackheap
+</UL>
+
+<P><STRONG><a name="[148]"></a>__user_perthread_libspace</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, libspace.o(.text), UNUSED)
+
+<P><STRONG><a name="[66]"></a>_sys_exit</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, sys_exit.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_exit_exit
+</UL>
+
+<P><STRONG><a name="[149]"></a>__I$use$semihosting</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, use_no_semi.o(.text), UNUSED)
+
+<P><STRONG><a name="[14a]"></a>__use_no_semihosting_swi</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, use_no_semi.o(.text), UNUSED)
+
+<P><STRONG><a name="[14b]"></a>__decompress</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __dczerorl2.o(.text), UNUSED)
+
+<P><STRONG><a name="[14c]"></a>__decompress1</STRONG> (Thumb, 86 bytes, Stack size unknown bytes, __dczerorl2.o(.text), UNUSED)
+
+<P><STRONG><a name="[14d]"></a>__semihosting_library_function</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, indicate_semi.o(.text), UNUSED)
+
+<P><STRONG><a name="[107]"></a>ADCConfiguration</STRONG> (Thumb, 52 bytes, Stack size 0 bytes, drvforadc.o(i.ADCConfiguration))
+<BR><BR>[Called By]<UL><LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[7c]"></a>ADCPanelUpdate</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, mctrlrxin.o(i.ADCPanelUpdate))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = ADCPanelUpdate &rArr; LHA7918_Read &rArr; LHA7918_LB &rArr; __aeabi_fmul
+</UL>
+<BR>[Calls]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LHA7918_Read
+</UL>
+<BR>[Called By]<UL><LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[c3]"></a>ADC_Start</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, drvforadc.o(i.ADC_Start))
+<BR><BR>[Called By]<UL><LI><a href="#[c1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LHA7918_Init
+</UL>
+
+<P><STRONG><a name="[108]"></a>CCPConfiguration</STRONG> (Thumb, 74 bytes, Stack size 0 bytes, drvforccp.o(i.CCPConfiguration))
+<BR><BR>[Called By]<UL><LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[7e]"></a>CLK_GetHocoFreq</STRONG> (Thumb, 100 bytes, Stack size 4 bytes, system_cms32m67xx.o(i.CLK_GetHocoFreq))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = CLK_GetHocoFreq &rArr; __ARM_common_switch8
+</UL>
+<BR>[Calls]<UL><LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_common_switch8
+</UL>
+<BR>[Called By]<UL><LI><a href="#[56]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemInit
+</UL>
+
+<P><STRONG><a name="[ae]"></a>CalcCRCChksum</STRONG> (Thumb, 58 bytes, Stack size 16 bytes, mappcomm.o(i.CalcCRCChksum))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = CalcCRCChksum
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoModbusScan
+<LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoWritenRegister2
+<LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoWrite1Register2
+<LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoReadnRegister2
+</UL>
+
+<P><STRONG><a name="[80]"></a>CalcCoolTmpOutput</STRONG> (Thumb, 246 bytes, Stack size 16 bytes, mctrlmain.o(i.CalcCoolTmpOutput))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = CalcCoolTmpOutput &rArr; SetErrorCode &rArr; SetOutputSwitch &rArr; SetOutpRelay
+</UL>
+<BR>[Calls]<UL><LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetOutpDACxV
+<LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetErrorCode
+<LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CalcTempRamp
+<LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CalcPicFunc
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoMainCtrlLoop
+</UL>
+
+<P><STRONG><a name="[85]"></a>CalcHeatTmpOutput</STRONG> (Thumb, 246 bytes, Stack size 16 bytes, mctrlmain.o(i.CalcHeatTmpOutput))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = CalcHeatTmpOutput &rArr; SetErrorCode &rArr; SetOutputSwitch &rArr; SetOutpRelay
+</UL>
+<BR>[Calls]<UL><LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetOutpDACxV
+<LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetErrorCode
+<LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CalcTempRamp
+<LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CalcPicFunc
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoMainCtrlLoop
+</UL>
+
+<P><STRONG><a name="[86]"></a>CalcLRCChksum</STRONG> (Thumb, 40 bytes, Stack size 20 bytes, mappcomm.o(i.CalcLRCChksum))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = CalcLRCChksum &rArr; GetASCiiByte
+</UL>
+<BR>[Calls]<UL><LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetASCiiByte
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoModbusScan
+<LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoWritenRegister1
+<LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoWrite1Register1
+<LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoReadnRegister1
+</UL>
+
+<P><STRONG><a name="[83]"></a>CalcPicFunc</STRONG> (Thumb, 162 bytes, Stack size 0 bytes, mcfuncpid.o(i.CalcPicFunc))
+<BR><BR>[Called By]<UL><LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CalcHeatTmpOutput
+<LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CalcCoolTmpOutput
+</UL>
+
+<P><STRONG><a name="[88]"></a>CalcPoint</STRONG> (Thumb, 26 bytes, Stack size 16 bytes, mctrlrxin.o(i.CalcPoint))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = CalcPoint &rArr; __aeabi_idivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_idivmod
+</UL>
+<BR>[Called By]<UL><LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CheckTableP
+<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CheckTableN
+</UL>
+
+<P><STRONG><a name="[82]"></a>CalcTempRamp</STRONG> (Thumb, 90 bytes, Stack size 0 bytes, mctrltemp.o(i.CalcTempRamp))
+<BR><BR>[Called By]<UL><LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CalcHeatTmpOutput
+<LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CalcCoolTmpOutput
+</UL>
+
+<P><STRONG><a name="[8a]"></a>CalcTempValue</STRONG> (Thumb, 398 bytes, Stack size 24 bytes, mctrlrxin.o(i.CalcTempValue))
+<BR><BR>[Stack]<UL><LI>Max Depth = 136<LI>Call Chain = CalcTempValue &rArr; RTD_Panel_Calc &rArr; __aeabi_ddiv
+</UL>
+<BR>[Calls]<UL><LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_fmul
+<LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_cfcmple
+<LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ui2f
+<LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_i2f
+<LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_f2uiz
+<LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_f2iz
+<LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_fadd
+<LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TC_Panel_Calc
+<LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RTD_Panel_Calc
+<LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CheckTableP
+<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CheckTableN
+</UL>
+<BR>[Called By]<UL><LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[8f]"></a>CheckTableN</STRONG> (Thumb, 260 bytes, Stack size 32 bytes, mctrlrxin.o(i.CheckTableN))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = CheckTableN &rArr; CalcPoint &rArr; __aeabi_idivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NegatArray
+<LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CalcPoint
+</UL>
+<BR>[Called By]<UL><LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CalcTempValue
+</UL>
+
+<P><STRONG><a name="[90]"></a>CheckTableP</STRONG> (Thumb, 264 bytes, Stack size 32 bytes, mctrlrxin.o(i.CheckTableP))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = CheckTableP &rArr; CalcPoint &rArr; __aeabi_idivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PostArray
+<LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CalcPoint
+</UL>
+<BR>[Called By]<UL><LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CalcTempValue
+</UL>
+
+<P><STRONG><a name="[96]"></a>DispErrorCode</STRONG> (Thumb, 146 bytes, Stack size 8 bytes, mappshow.o(i.DispErrorCode))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = DispErrorCode &rArr; __aeabi_idivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_idivmod
+</UL>
+<BR>[Called By]<UL><LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+<LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetErrorCode
+</UL>
+
+<P><STRONG><a name="[e6]"></a>DispMenuEnd</STRONG> (Thumb, 60 bytes, Stack size 0 bytes, mappshow.o(i.DispMenuEnd))
+<BR><BR>[Called By]<UL><LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Menu_SubFunc
+</UL>
+
+<P><STRONG><a name="[97]"></a>DispMenuFunc</STRONG> (Thumb, 146 bytes, Stack size 8 bytes, mappshow.o(i.DispMenuFunc))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = DispMenuFunc &rArr; __aeabi_idivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_idivmod
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MappMenu100MS
+<LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Menu_SubFunc
+<LI><a href="#[cf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Menu_MainPswd
+<LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Menu_MainFunc
+</UL>
+
+<P><STRONG><a name="[98]"></a>DispMenuNum1</STRONG> (Thumb, 100 bytes, Stack size 16 bytes, mappshow.o(i.DispMenuNum1))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = DispMenuNum1 &rArr; __aeabi_idivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_idivmod
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MappMenu100MS
+<LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Menu_MainShow
+</UL>
+
+<P><STRONG><a name="[99]"></a>DispMenuNum2</STRONG> (Thumb, 100 bytes, Stack size 16 bytes, mappshow.o(i.DispMenuNum2))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = DispMenuNum2 &rArr; __aeabi_idivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_idivmod
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Menu_SubFunc
+<LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Menu_MainFunc
+</UL>
+
+<P><STRONG><a name="[d3]"></a>DispMenuOff1</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, mappshow.o(i.DispMenuOff1))
+<BR><BR>[Called By]<UL><LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MappMenu100MS
+</UL>
+
+<P><STRONG><a name="[d5]"></a>DispMenuOff2</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, mappshow.o(i.DispMenuOff2))
+<BR><BR>[Called By]<UL><LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MappMenu100MS
+</UL>
+
+<P><STRONG><a name="[9a]"></a>DispMenuPswd</STRONG> (Thumb, 114 bytes, Stack size 16 bytes, mappshow.o(i.DispMenuPswd))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = DispMenuPswd &rArr; __aeabi_idivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_idivmod
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Menu_MainShow
+<LI><a href="#[cf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Menu_MainPswd
+</UL>
+
+<P><STRONG><a name="[9b]"></a>DispShowFrc1</STRONG> (Thumb, 100 bytes, Stack size 16 bytes, mappshow.o(i.DispShowFrc1))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = DispShowFrc1 &rArr; DispShowNum1 &rArr; __aeabi_idivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DispShowNum1
+<LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_idivmod
+</UL>
+<BR>[Called By]<UL><LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MenuTime1000MS
+<LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MappMenu100MS
+<LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[9d]"></a>DispShowFrc2</STRONG> (Thumb, 100 bytes, Stack size 16 bytes, mappshow.o(i.DispShowFrc2))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = DispShowFrc2 &rArr; DispShowNum2 &rArr; __aeabi_idivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DispShowNum2
+<LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_idivmod
+</UL>
+<BR>[Called By]<UL><LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MenuTime1000MS
+<LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MappMenu100MS
+<LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+<LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoWrite1Register2
+<LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoWrite1Register1
+<LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Menu_SubFunc
+<LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Menu_MainShow
+<LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Menu_MainFunc
+</UL>
+
+<P><STRONG><a name="[9c]"></a>DispShowNum1</STRONG> (Thumb, 138 bytes, Stack size 16 bytes, mappshow.o(i.DispShowNum1))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = DispShowNum1 &rArr; __aeabi_idivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_idivmod
+</UL>
+<BR>[Called By]<UL><LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DispShowFrc1
+</UL>
+
+<P><STRONG><a name="[9e]"></a>DispShowNum2</STRONG> (Thumb, 138 bytes, Stack size 16 bytes, mappshow.o(i.DispShowNum2))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = DispShowNum2 &rArr; __aeabi_idivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_idivmod
+</UL>
+<BR>[Called By]<UL><LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DispShowFrc2
+</UL>
+
+<P><STRONG><a name="[9f]"></a>Do485Time10MS</STRONG> (Thumb, 36 bytes, Stack size 8 bytes, mappcomm.o(i.Do485Time10MS))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = Do485Time10MS &rArr; SetErrorCode &rArr; SetOutputSwitch &rArr; SetOutpRelay
+</UL>
+<BR>[Calls]<UL><LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetErrorCode
+</UL>
+<BR>[Called By]<UL><LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[109]"></a>DoLedBitScan</STRONG> (Thumb, 202 bytes, Stack size 0 bytes, mappshow.o(i.DoLedBitScan))
+<BR><BR>[Called By]<UL><LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[a0]"></a>DoLedKeyScan</STRONG> (Thumb, 1050 bytes, Stack size 4 bytes, drvforpanel.o(i.DoLedKeyScan))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = DoLedKeyScan &rArr; drvLightLed
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;drvLightLed
+<LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_common_switch8
+</UL>
+<BR>[Called By]<UL><LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[a2]"></a>DoMainCtrlLoop</STRONG> (Thumb, 342 bytes, Stack size 8 bytes, mctrlmain.o(i.DoMainCtrlLoop))
+<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = DoMainCtrlLoop &rArr; CalcHeatTmpOutput &rArr; SetErrorCode &rArr; SetOutputSwitch &rArr; SetOutpRelay
+</UL>
+<BR>[Calls]<UL><LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CalcHeatTmpOutput
+<LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CalcCoolTmpOutput
+</UL>
+<BR>[Called By]<UL><LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[a3]"></a>DoModbusAscciiCmd</STRONG> (Thumb, 138 bytes, Stack size 8 bytes, mappcomm.o(i.DoModbusAscciiCmd))
+<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = DoModbusAscciiCmd &rArr; DoWritenRegister1 &rArr; DoSavenFromComm
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetASCiiWord
+<LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetASCiiByte
+<LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoWritenRegister1
+<LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoWrite1Register1
+<LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoReadnRegister1
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoModbusScan
+</UL>
+
+<P><STRONG><a name="[a8]"></a>DoModbusRTUCmd</STRONG> (Thumb, 140 bytes, Stack size 8 bytes, mappcomm.o(i.DoModbusRTUCmd))
+<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = DoModbusRTUCmd &rArr; DoWritenRegister2 &rArr; DoWrite1Register2 &rArr; DispShowFrc2 &rArr; DispShowNum2 &rArr; __aeabi_idivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoWritenRegister2
+<LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoWrite1Register2
+<LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoReadnRegister2
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoModbusScan
+</UL>
+
+<P><STRONG><a name="[ac]"></a>DoModbusScan</STRONG> (Thumb, 654 bytes, Stack size 8 bytes, mappcomm.o(i.DoModbusScan))
+<BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = DoModbusScan &rArr; DoModbusRTUCmd &rArr; DoWritenRegister2 &rArr; DoWrite1Register2 &rArr; DispShowFrc2 &rArr; DispShowNum2 &rArr; __aeabi_idivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetASCiiByte
+<LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoModbusRTUCmd
+<LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoModbusAscciiCmd
+<LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CalcLRCChksum
+<LI><a href="#[ae]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CalcCRCChksum
+<LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetCommFlag
+</UL>
+<BR>[Called By]<UL><LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[a5]"></a>DoReadnRegister1</STRONG> (Thumb, 1064 bytes, Stack size 16 bytes, mappcomm.o(i.DoReadnRegister1))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = DoReadnRegister1 &rArr; CalcLRCChksum &rArr; GetASCiiByte
+</UL>
+<BR>[Calls]<UL><LI><a href="#[af]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetMenuIndex
+<LI><a href="#[b2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetOutputFlag
+<LI><a href="#[b1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetErrorCode
+<LI><a href="#[b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetASCiiCode
+<LI><a href="#[b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoSendData
+<LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CalcLRCChksum
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoModbusAscciiCmd
+</UL>
+
+<P><STRONG><a name="[a9]"></a>DoReadnRegister2</STRONG> (Thumb, 1036 bytes, Stack size 24 bytes, mappcomm.o(i.DoReadnRegister2))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = DoReadnRegister2 &rArr; CalcCRCChksum
+</UL>
+<BR>[Calls]<UL><LI><a href="#[af]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetMenuIndex
+<LI><a href="#[b2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetOutputFlag
+<LI><a href="#[b1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetErrorCode
+<LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_common_switch8
+<LI><a href="#[b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoSendData
+<LI><a href="#[ae]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CalcCRCChksum
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoModbusRTUCmd
+</UL>
+
+<P><STRONG><a name="[b4]"></a>DoSave1FromComm</STRONG> (Thumb, 164 bytes, Stack size 16 bytes, mappmenu.o(i.DoSave1FromComm))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = DoSave1FromComm
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetIfRWFlag
+<LI><a href="#[b6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetParaChkSum
+</UL>
+<BR>[Called By]<UL><LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoWrite1Register2
+<LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoWrite1Register1
+</UL>
+
+<P><STRONG><a name="[b7]"></a>DoSavenFromComm</STRONG> (Thumb, 214 bytes, Stack size 40 bytes, mappmenu.o(i.DoSavenFromComm))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = DoSavenFromComm
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetIfRWFlag
+<LI><a href="#[b6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetParaChkSum
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoWritenRegister2
+<LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoWritenRegister1
+</UL>
+
+<P><STRONG><a name="[b3]"></a>DoSendData</STRONG> (Thumb, 46 bytes, Stack size 8 bytes, mappcomm.o(i.DoSendData))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = DoSendData
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetCommFlag
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoWritenRegister2
+<LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoWritenRegister1
+<LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoWrite1Register2
+<LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoWrite1Register1
+<LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoReadnRegister2
+<LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoReadnRegister1
+</UL>
+
+<P><STRONG><a name="[b8]"></a>DoWarnAutoReset</STRONG> (Thumb, 160 bytes, Stack size 8 bytes, mctrlwarn.o(i.DoWarnAutoReset))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = DoWarnAutoReset &rArr; SetErrorCode &rArr; SetOutputSwitch &rArr; SetOutpRelay
+</UL>
+<BR>[Calls]<UL><LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetErrorCode
+<LI><a href="#[b1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetErrorCode
+</UL>
+<BR>[Called By]<UL><LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[a6]"></a>DoWrite1Register1</STRONG> (Thumb, 430 bytes, Stack size 8 bytes, mappcomm.o(i.DoWrite1Register1))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = DoWrite1Register1 &rArr; DispShowFrc2 &rArr; DispShowNum2 &rArr; __aeabi_idivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[af]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetMenuIndex
+<LI><a href="#[b9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetOutputSwitch
+<LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DispShowFrc2
+<LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetErrorCode
+<LI><a href="#[b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetASCiiCode
+<LI><a href="#[b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoSendData
+<LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CalcLRCChksum
+<LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetOutpTmpToRef
+<LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoSave1FromComm
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoModbusAscciiCmd
+</UL>
+
+<P><STRONG><a name="[aa]"></a>DoWrite1Register2</STRONG> (Thumb, 604 bytes, Stack size 8 bytes, mappcomm.o(i.DoWrite1Register2))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = DoWrite1Register2 &rArr; DispShowFrc2 &rArr; DispShowNum2 &rArr; __aeabi_idivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[af]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetMenuIndex
+<LI><a href="#[b9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetOutputSwitch
+<LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DispShowFrc2
+<LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetErrorCode
+<LI><a href="#[bb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Sensor_Mode_Select
+<LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_common_switch8
+<LI><a href="#[b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoSendData
+<LI><a href="#[ae]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CalcCRCChksum
+<LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetOutpTmpToRef
+<LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoSave1FromComm
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoWritenRegister2
+<LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoModbusRTUCmd
+</UL>
+
+<P><STRONG><a name="[a7]"></a>DoWritenRegister1</STRONG> (Thumb, 336 bytes, Stack size 16 bytes, mappcomm.o(i.DoWritenRegister1))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = DoWritenRegister1 &rArr; DoSavenFromComm
+</UL>
+<BR>[Calls]<UL><LI><a href="#[af]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetMenuIndex
+<LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetASCiiWord
+<LI><a href="#[b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetASCiiCode
+<LI><a href="#[b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoSendData
+<LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CalcLRCChksum
+<LI><a href="#[b7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoSavenFromComm
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoModbusAscciiCmd
+</UL>
+
+<P><STRONG><a name="[ab]"></a>DoWritenRegister2</STRONG> (Thumb, 284 bytes, Stack size 16 bytes, mappcomm.o(i.DoWritenRegister2))
+<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = DoWritenRegister2 &rArr; DoWrite1Register2 &rArr; DispShowFrc2 &rArr; DispShowNum2 &rArr; __aeabi_idivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[af]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetMenuIndex
+<LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoWrite1Register2
+<LI><a href="#[b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoSendData
+<LI><a href="#[ae]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CalcCRCChksum
+<LI><a href="#[b7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoSavenFromComm
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoModbusRTUCmd
+</UL>
+
+<P><STRONG><a name="[bc]"></a>DoXnScanLoop</STRONG> (Thumb, 210 bytes, Stack size 8 bytes, mctrlxnin.o(i.DoXnScanLoop))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = DoXnScanLoop &rArr; SetOutpTmpToRef &rArr; SetHeatTmpToRef &rArr; __aeabi_idivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetOutputSwitch
+<LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetOutpTmpToRef
+</UL>
+<BR>[Called By]<UL><LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[ec]"></a>FMC_ErasePage</STRONG> (Thumb, 58 bytes, Stack size 0 bytes, drvforfmc.o(i.FMC_ErasePage))
+<BR><BR>[Called By]<UL><LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SaveCodeAtRom1
+<LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SaveCodeAtRom0
+</UL>
+
+<P><STRONG><a name="[ed]"></a>FMC_Program</STRONG> (Thumb, 70 bytes, Stack size 12 bytes, drvforfmc.o(i.FMC_Program))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = FMC_Program
+</UL>
+<BR>[Called By]<UL><LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SaveCodeAtRom1
+<LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SaveCodeAtRom0
+</UL>
+
+<P><STRONG><a name="[105]"></a>GPIOConfiguration</STRONG> (Thumb, 174 bytes, Stack size 0 bytes, drvforgpio.o(i.GPIOConfiguration))
+<BR><BR>[Called By]<UL><LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[ee]"></a>GPIOResetOutput</STRONG> (Thumb, 22 bytes, Stack size 0 bytes, drvforgpio.o(i.GPIOResetOutput))
+<BR><BR>[Called By]<UL><LI><a href="#[cb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SaveParaToRom
+</UL>
+
+<P><STRONG><a name="[87]"></a>GetASCiiByte</STRONG> (Thumb, 26 bytes, Stack size 12 bytes, mappcomm.o(i.GetASCiiByte))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = GetASCiiByte
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetASCiiData
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoModbusScan
+<LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoModbusAscciiCmd
+<LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CalcLRCChksum
+</UL>
+
+<P><STRONG><a name="[b0]"></a>GetASCiiCode</STRONG> (Thumb, 22 bytes, Stack size 0 bytes, mappcomm.o(i.GetASCiiCode))
+<BR><BR>[Called By]<UL><LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoWritenRegister1
+<LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoWrite1Register1
+<LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoReadnRegister1
+</UL>
+
+<P><STRONG><a name="[bd]"></a>GetASCiiData</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, mappcomm.o(i.GetASCiiData))
+<BR><BR>[Called By]<UL><LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetASCiiWord
+<LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetASCiiByte
+</UL>
+
+<P><STRONG><a name="[a4]"></a>GetASCiiWord</STRONG> (Thumb, 50 bytes, Stack size 12 bytes, mappcomm.o(i.GetASCiiWord))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = GetASCiiWord
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetASCiiData
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoWritenRegister1
+<LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoModbusAscciiCmd
+</UL>
+
+<P><STRONG><a name="[e2]"></a>GetDotBitno</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, mappcode.o(i.GetDotBitno))
+<BR><BR>[Called By]<UL><LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Menu_MainFunc
+</UL>
+
+<P><STRONG><a name="[b1]"></a>GetErrorCode</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, mappmain.o(i.GetErrorCode))
+<BR><BR>[Called By]<UL><LI><a href="#[b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoWarnAutoReset
+<LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoReadnRegister2
+<LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoReadnRegister1
+</UL>
+
+<P><STRONG><a name="[b5]"></a>GetIfRWFlag</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, mappcode.o(i.GetIfRWFlag))
+<BR><BR>[Called By]<UL><LI><a href="#[e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetParameterCode
+<LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Menu_SubFunc
+<LI><a href="#[b7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoSavenFromComm
+<LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoSave1FromComm
+</UL>
+
+<P><STRONG><a name="[d6]"></a>GetInnerTempFlag</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, mctrlxnin.o(i.GetInnerTempFlag))
+<BR><BR>[Called By]<UL><LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MappMenu100MS
+<LI><a href="#[a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetTmpUpLimit
+<LI><a href="#[b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetTmpDnLimit
+<LI><a href="#[9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetSensorType
+<LI><a href="#[c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetInnerTemp
+<LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Menu_MainShow
+</UL>
+
+<P><STRONG><a name="[e3]"></a>GetMaxPara</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, mappcode.o(i.GetMaxPara))
+<BR><BR>[Called By]<UL><LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Menu_MainFunc
+</UL>
+
+<P><STRONG><a name="[af]"></a>GetMenuIndex</STRONG> (Thumb, 128 bytes, Stack size 0 bytes, mappcode.o(i.GetMenuIndex))
+<BR><BR>[Called By]<UL><LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoWritenRegister2
+<LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoWritenRegister1
+<LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoWrite1Register2
+<LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoWrite1Register1
+<LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoReadnRegister2
+<LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoReadnRegister1
+</UL>
+
+<P><STRONG><a name="[e4]"></a>GetMinPara</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, mappcode.o(i.GetMinPara))
+<BR><BR>[Called By]<UL><LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Menu_MainFunc
+</UL>
+
+<P><STRONG><a name="[cd]"></a>GetMsgIfKeyIn</STRONG> (Thumb, 22 bytes, Stack size 0 bytes, drvforpanel.o(i.GetMsgIfKeyIn))
+<BR><BR>[Called By]<UL><LI><a href="#[cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MappMainMenu
+</UL>
+
+<P><STRONG><a name="[e1]"></a>GetMsgKeyCnt</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, drvforpanel.o(i.GetMsgKeyCnt))
+<BR><BR>[Called By]<UL><LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+<LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Menu_SubFunc
+<LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Menu_MainShow
+<LI><a href="#[cf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Menu_MainPswd
+<LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Menu_MainFunc
+</UL>
+
+<P><STRONG><a name="[e0]"></a>GetMsgKeyData</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, drvforpanel.o(i.GetMsgKeyData))
+<BR><BR>[Called By]<UL><LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+<LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Menu_SubFunc
+<LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Menu_MainShow
+<LI><a href="#[cf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Menu_MainPswd
+<LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Menu_MainFunc
+</UL>
+
+<P><STRONG><a name="[b2]"></a>GetOutputFlag</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, mctrlmain.o(i.GetOutputFlag))
+<BR><BR>[Called By]<UL><LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MappMenu100MS
+<LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetErrorCode
+<LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoReadnRegister2
+<LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoReadnRegister1
+<LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Menu_MainShow
+</UL>
+
+<P><STRONG><a name="[b6]"></a>GetParaChkSum</STRONG> (Thumb, 38 bytes, Stack size 0 bytes, mappmenu.o(i.GetParaChkSum))
+<BR><BR>[Called By]<UL><LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MappPowerOn
+<LI><a href="#[e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetParameterCode
+<LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetParaDefault
+<LI><a href="#[b7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoSavenFromComm
+<LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoSave1FromComm
+</UL>
+
+<P><STRONG><a name="[101]"></a>GetTempFlag</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, mappshow.o(i.GetTempFlag))
+<BR><BR>[Called By]<UL><LI><a href="#[26]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetTemperatxUnit
+</UL>
+
+<P><STRONG><a name="[be]"></a>InitPidParm</STRONG> (Thumb, 136 bytes, Stack size 8 bytes, mcfuncpid.o(i.InitPidParm))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = InitPidParm &rArr; __aeabi_idivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_idivmod
+</UL>
+<BR>[Called By]<UL><LI><a href="#[35]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetqPID11Kp
+<LI><a href="#[36]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetqPID11Ki
+<LI><a href="#[37]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetqPID11Kd
+<LI><a href="#[32]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetqPID02Kp
+<LI><a href="#[33]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetqPID02Ki
+<LI><a href="#[34]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetqPID02Kd
+<LI><a href="#[2f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetqPID01Kp
+<LI><a href="#[30]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetqPID01Ki
+<LI><a href="#[31]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetqPID01Kd
+</UL>
+
+<P><STRONG><a name="[bf]"></a>InitTempRamp</STRONG> (Thumb, 184 bytes, Stack size 8 bytes, mctrltemp.o(i.InitTempRamp))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = InitTempRamp
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uidivmod
+</UL>
+<BR>[Called By]<UL><LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetCodeInitial
+<LI><a href="#[16]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetHeatPeriod
+<LI><a href="#[18]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetHeatDecRate
+<LI><a href="#[17]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetHeatAccRate
+<LI><a href="#[1d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetCoolPeriod
+<LI><a href="#[1f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetCoolDecRate
+<LI><a href="#[1e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetCoolAccRate
+</UL>
+
+<P><STRONG><a name="[c1]"></a>LHA7918_Init</STRONG> (Thumb, 224 bytes, Stack size 8 bytes, mctrlrxin.o(i.LHA7918_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = LHA7918_Init &rArr; LHA_WR_Data
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Sensor_Mode_Select
+<LI><a href="#[c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LHA_WR_Data
+<LI><a href="#[c3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_Start
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MappPowerOn
+</UL>
+
+<P><STRONG><a name="[c4]"></a>LHA7918_LB</STRONG> (Thumb, 572 bytes, Stack size 24 bytes, mctrlrxin.o(i.LHA7918_LB))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = LHA7918_LB &rArr; __aeabi_fmul
+</UL>
+<BR>[Calls]<UL><LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_fmul
+<LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_i2f
+<LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_f2iz
+<LI><a href="#[c5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_fsub
+<LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_idivmod
+</UL>
+<BR>[Called By]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LHA7918_Read
+</UL>
+
+<P><STRONG><a name="[7d]"></a>LHA7918_Read</STRONG> (Thumb, 978 bytes, Stack size 8 bytes, mctrlrxin.o(i.LHA7918_Read))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = LHA7918_Read &rArr; LHA7918_LB &rArr; __aeabi_fmul
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LHA_WR_Data
+<LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_common_switch8
+<LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LHA7918_LB
+</UL>
+<BR>[Called By]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADCPanelUpdate
+</UL>
+
+<P><STRONG><a name="[c6]"></a>LHA_Config_Set</STRONG> (Thumb, 154 bytes, Stack size 8 bytes, mctrlrxin.o(i.LHA_Config_Set))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = LHA_Config_Set &rArr; LHA_WR_Data
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Sensor_Mode_Select
+<LI><a href="#[c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LHA_WR_Data
+</UL>
+<BR>[Called By]<UL><LI><a href="#[9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetSensorType
+<LI><a href="#[23]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetCascadeSwon
+</UL>
+
+<P><STRONG><a name="[c2]"></a>LHA_WR_Data</STRONG> (Thumb, 100 bytes, Stack size 12 bytes, drvforlha.o(i.LHA_WR_Data))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = LHA_WR_Data
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LHA_WR_Delay
+</UL>
+<BR>[Called By]<UL><LI><a href="#[c1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LHA7918_Init
+<LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LHA_Config_Set
+<LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LHA7918_Read
+</UL>
+
+<P><STRONG><a name="[c7]"></a>LHA_WR_Delay</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, drvforlha.o(i.LHA_WR_Delay))
+<BR><BR>[Called By]<UL><LI><a href="#[c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LHA_WR_Data
+</UL>
+
+<P><STRONG><a name="[c8]"></a>LVDConfiguration</STRONG> (Thumb, 28 bytes, Stack size 8 bytes, drvformain.o(i.LVDConfiguration))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = LVDConfiguration &rArr; NVIC_SetPriority
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NVIC_SetPriority
+<LI><a href="#[c9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NVIC_EnableIRQ
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MappPowerOn
+</UL>
+
+<P><STRONG><a name="[3e]"></a>LVI_IRQHandler</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, mappmain.o(i.LVI_IRQHandler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 36<LI>Call Chain = LVI_IRQHandler &rArr; SaveParaToRom &rArr; SaveCodeAtRom0 &rArr; FMC_Program
+</UL>
+<BR>[Calls]<UL><LI><a href="#[cb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SaveParaToRom
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_cms32m67xx.o(RESET)
+</UL>
+<P><STRONG><a name="[cc]"></a>MappMainMenu</STRONG> (Thumb, 76 bytes, Stack size 8 bytes, mappmenu.o(i.MappMainMenu))
+<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = MappMainMenu &rArr; Menu_MainShow &rArr; DispShowFrc2 &rArr; DispShowNum2 &rArr; __aeabi_idivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[cd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetMsgIfKeyIn
+<LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Menu_SubFunc
+<LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Menu_MainShow
+<LI><a href="#[cf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Menu_MainPswd
+<LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Menu_MainFunc
+</UL>
+<BR>[Called By]<UL><LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[d2]"></a>MappMenu100MS</STRONG> (Thumb, 740 bytes, Stack size 16 bytes, mappmenu.o(i.MappMenu100MS))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = MappMenu100MS &rArr; DispShowFrc2 &rArr; DispShowNum2 &rArr; __aeabi_idivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetOutputFlag
+<LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DispShowFrc2
+<LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DispShowFrc1
+<LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetLockFlag
+<LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetInnerTempFlag
+<LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DispMenuOff2
+<LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DispMenuOff1
+<LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DispMenuNum1
+<LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DispMenuFunc
+<LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_fmul
+<LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_f2iz
+<LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_idivmod
+</UL>
+<BR>[Called By]<UL><LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[d8]"></a>MappMenu_Init</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, mappmenu.o(i.MappMenu_Init))
+<BR><BR>[Called By]<UL><LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MappPowerOn
+</UL>
+
+<P><STRONG><a name="[d7]"></a>MappPowerOn</STRONG> (Thumb, 350 bytes, Stack size 120 bytes, mappmain.o(i.MappPowerOn))
+<BR><BR>[Stack]<UL><LI>Max Depth = 160<LI>Call Chain = MappPowerOn &rArr; SetCodeInitial &rArr; SetOutpTmpToRef &rArr; SetHeatTmpToRef &rArr; __aeabi_idivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetCodeInitial
+<LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SaveCodeAtRom1
+<LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SaveCodeAtRom0
+<LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ReadCodeAtRom1
+<LI><a href="#[d9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ReadCodeAtRom0
+<LI><a href="#[d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MappMenu_Init
+<LI><a href="#[c1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LHA7918_Init
+<LI><a href="#[b6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetParaChkSum
+<LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetErrorCode
+<LI><a href="#[dd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NVICConfiguration
+<LI><a href="#[c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LVDConfiguration
+<LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_common_switch8
+</UL>
+<BR>[Called By]<UL><LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[10a]"></a>MappTimeCnt</STRONG> (Thumb, 88 bytes, Stack size 0 bytes, mappmain.o(i.MappTimeCnt))
+<BR><BR>[Called By]<UL><LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[10b]"></a>MappUxComTime</STRONG> (Thumb, 22 bytes, Stack size 0 bytes, mappcomm.o(i.MappUxComTime))
+<BR><BR>[Called By]<UL><LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[df]"></a>MenuTime1000MS</STRONG> (Thumb, 164 bytes, Stack size 8 bytes, mappmenu.o(i.MenuTime1000MS))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = MenuTime1000MS &rArr; DispShowFrc2 &rArr; DispShowNum2 &rArr; __aeabi_idivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DispShowFrc2
+<LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DispShowFrc1
+<LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetLockFlag
+<LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_idivmod
+</UL>
+<BR>[Called By]<UL><LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[d0]"></a>Menu_MainFunc</STRONG> (Thumb, 656 bytes, Stack size 8 bytes, mappmenu.o(i.Menu_MainFunc))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = Menu_MainFunc &rArr; DispShowFrc2 &rArr; DispShowNum2 &rArr; __aeabi_idivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetMinPara
+<LI><a href="#[e3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetMaxPara
+<LI><a href="#[e2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetDotBitno
+<LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DispShowFrc2
+<LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetMsgKeyData
+<LI><a href="#[e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetMsgKeyCnt
+<LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DispMenuNum2
+<LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DispMenuFunc
+</UL>
+<BR>[Called By]<UL><LI><a href="#[cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MappMainMenu
+</UL>
+
+<P><STRONG><a name="[cf]"></a>Menu_MainPswd</STRONG> (Thumb, 260 bytes, Stack size 8 bytes, mappmenu.o(i.Menu_MainPswd))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = Menu_MainPswd &rArr; DispMenuPswd &rArr; __aeabi_idivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetMsgKeyData
+<LI><a href="#[e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetMsgKeyCnt
+<LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DispMenuPswd
+<LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DispMenuFunc
+</UL>
+<BR>[Called By]<UL><LI><a href="#[cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MappMainMenu
+</UL>
+
+<P><STRONG><a name="[ce]"></a>Menu_MainShow</STRONG> (Thumb, 1336 bytes, Stack size 16 bytes, mappmenu.o(i.Menu_MainShow))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = Menu_MainShow &rArr; DispShowFrc2 &rArr; DispShowNum2 &rArr; __aeabi_idivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetOutputSwitch
+<LI><a href="#[b2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetOutputFlag
+<LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DispShowFrc2
+<LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetMsgKeyData
+<LI><a href="#[e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetMsgKeyCnt
+<LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetOutpTmpToRef
+<LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetInnerTempFlag
+<LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DispMenuPswd
+<LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DispMenuNum1
+<LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_idivmod
+</UL>
+<BR>[Called By]<UL><LI><a href="#[cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MappMainMenu
+</UL>
+
+<P><STRONG><a name="[d1]"></a>Menu_SubFunc</STRONG> (Thumb, 488 bytes, Stack size 8 bytes, mappmenu.o(i.Menu_SubFunc))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = Menu_SubFunc &rArr; DispShowFrc2 &rArr; DispShowNum2 &rArr; __aeabi_idivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetIfRWFlag
+<LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DispShowFrc2
+<LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetMsgKeyData
+<LI><a href="#[e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetMsgKeyCnt
+<LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DispMenuNum2
+<LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DispMenuFunc
+<LI><a href="#[e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DispMenuEnd
+<LI><a href="#[e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetParameterCode
+</UL>
+<BR>[Called By]<UL><LI><a href="#[cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MappMainMenu
+</UL>
+
+<P><STRONG><a name="[dd]"></a>NVICConfiguration</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, drvformain.o(i.NVICConfiguration))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = NVICConfiguration &rArr; NVIC_SetPriority
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NVIC_SetPriority
+<LI><a href="#[c9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NVIC_EnableIRQ
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MappPowerOn
+</UL>
+
+<P><STRONG><a name="[94]"></a>NegatArray</STRONG> (Thumb, 104 bytes, Stack size 4 bytes, mctrlrxin.o(i.NegatArray))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = NegatArray &rArr; __ARM_common_switch8
+</UL>
+<BR>[Calls]<UL><LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_common_switch8
+</UL>
+<BR>[Called By]<UL><LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CheckTableN
+</UL>
+
+<P><STRONG><a name="[95]"></a>PostArray</STRONG> (Thumb, 112 bytes, Stack size 4 bytes, mctrlrxin.o(i.PostArray))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = PostArray &rArr; __ARM_common_switch8
+</UL>
+<BR>[Calls]<UL><LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_common_switch8
+</UL>
+<BR>[Called By]<UL><LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CheckTableP
+</UL>
+
+<P><STRONG><a name="[8b]"></a>RTD_Panel_Calc</STRONG> (Thumb, 358 bytes, Stack size 48 bytes, mctrlrxin.o(i.RTD_Panel_Calc))
+<BR><BR>[Stack]<UL><LI>Max Depth = 112<LI>Call Chain = RTD_Panel_Calc &rArr; __aeabi_ddiv
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dmul
+<LI><a href="#[6e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_i2d
+<LI><a href="#[e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_d2iz
+<LI><a href="#[ea]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ddiv
+<LI><a href="#[e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_drsub
+<LI><a href="#[eb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_d2f
+</UL>
+<BR>[Called By]<UL><LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CalcTempValue
+</UL>
+
+<P><STRONG><a name="[d9]"></a>ReadCodeAtRom0</STRONG> (Thumb, 28 bytes, Stack size 8 bytes, mappcode.o(i.ReadCodeAtRom0))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = ReadCodeAtRom0
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MappPowerOn
+</UL>
+
+<P><STRONG><a name="[da]"></a>ReadCodeAtRom1</STRONG> (Thumb, 28 bytes, Stack size 8 bytes, mappcode.o(i.ReadCodeAtRom1))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = ReadCodeAtRom1
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MappPowerOn
+</UL>
+
+<P><STRONG><a name="[103]"></a>SPI_Delay</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, drvforpanel.o(i.SPI_Delay))
+<BR><BR>[Called By]<UL><LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;drvLightLed
+</UL>
+
+<P><STRONG><a name="[104]"></a>SYSConfiguration</STRONG> (Thumb, 44 bytes, Stack size 0 bytes, drvformain.o(i.SYSConfiguration))
+<BR><BR>[Called By]<UL><LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[dc]"></a>SaveCodeAtRom0</STRONG> (Thumb, 22 bytes, Stack size 8 bytes, mappcode.o(i.SaveCodeAtRom0))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = SaveCodeAtRom0 &rArr; FMC_Program
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FMC_Program
+<LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FMC_ErasePage
+</UL>
+<BR>[Called By]<UL><LI><a href="#[cb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SaveParaToRom
+<LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MappPowerOn
+</UL>
+
+<P><STRONG><a name="[db]"></a>SaveCodeAtRom1</STRONG> (Thumb, 22 bytes, Stack size 8 bytes, mappcode.o(i.SaveCodeAtRom1))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = SaveCodeAtRom1 &rArr; FMC_Program
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FMC_Program
+<LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FMC_ErasePage
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MappPowerOn
+</UL>
+
+<P><STRONG><a name="[cb]"></a>SaveParaToRom</STRONG> (Thumb, 28 bytes, Stack size 8 bytes, mappmenu.o(i.SaveParaToRom))
+<BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = SaveParaToRom &rArr; SaveCodeAtRom0 &rArr; FMC_Program
+</UL>
+<BR>[Calls]<UL><LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SaveCodeAtRom0
+<LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIOResetOutput
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LVI_IRQHandler
+</UL>
+
+<P><STRONG><a name="[bb]"></a>Sensor_Mode_Select</STRONG> (Thumb, 50 bytes, Stack size 0 bytes, drvforlha.o(i.Sensor_Mode_Select))
+<BR><BR>[Called By]<UL><LI><a href="#[c1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LHA7918_Init
+<LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoWrite1Register2
+<LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LHA_Config_Set
+</UL>
+
+<P><STRONG><a name="[f6]"></a>SetAlamFlag</STRONG> (Thumb, 32 bytes, Stack size 0 bytes, mappshow.o(i.SetAlamFlag))
+<BR><BR>[Called By]<UL><LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetErrorCode
+</UL>
+
+<P><STRONG><a name="[23]"></a>SetCascadeSwon</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, mappmenu.o(i.SetCascadeSwon))
+<BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = SetCascadeSwon &rArr; LHA_Config_Set &rArr; LHA_WR_Data
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LHA_Config_Set
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mappmenu.o(.data)
+</UL>
+<P><STRONG><a name="[fe]"></a>SetCodeDefault</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, mappcode.o(i.SetCodeDefault))
+<BR><BR>[Called By]<UL><LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetParaDefault
+</UL>
+
+<P><STRONG><a name="[de]"></a>SetCodeInitial</STRONG> (Thumb, 156 bytes, Stack size 16 bytes, mappmenu.o(i.SetCodeInitial))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = SetCodeInitial &rArr; SetOutpTmpToRef &rArr; SetHeatTmpToRef &rArr; __aeabi_idivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetOutputSwitch
+<LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetUpDnErrWarnQv
+<LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetTempFlag
+<LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetOutpTmpToRef
+<LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetLockFlag
+<LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetHeatCoolErrQv
+<LI><a href="#[f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetCommXXFormat
+<LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetCommFlag
+<LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetCommBaudrate
+<LI><a href="#[bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;InitTempRamp
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MappPowerOn
+<LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetParaDefault
+</UL>
+
+<P><STRONG><a name="[27]"></a>SetCommAddr</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, mappmenu.o(i.SetCommAddr))
+<BR>[Address Reference Count : 1]<UL><LI> mappmenu.o(.data)
+</UL>
+<P><STRONG><a name="[f1]"></a>SetCommBaudrate</STRONG> (Thumb, 182 bytes, Stack size 8 bytes, mappcomm.o(i.SetCommBaudrate))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = SetCommBaudrate &rArr; __ARM_common_switch8
+</UL>
+<BR>[Calls]<UL><LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_common_switch8
+<LI><a href="#[c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uidivmod
+</UL>
+<BR>[Called By]<UL><LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetCodeInitial
+<LI><a href="#[28]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetCommSpeed
+</UL>
+
+<P><STRONG><a name="[ad]"></a>SetCommFlag</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, mappshow.o(i.SetCommFlag))
+<BR><BR>[Called By]<UL><LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetCodeInitial
+<LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoModbusScan
+<LI><a href="#[b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoSendData
+</UL>
+
+<P><STRONG><a name="[29]"></a>SetCommFormat</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, mappmenu.o(i.SetCommFormat))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = SetCommFormat &rArr; SetCommXXFormat &rArr; __ARM_common_switch8
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetCommXXFormat
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mappmenu.o(.data)
+</UL>
+<P><STRONG><a name="[2a]"></a>SetCommMode</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, mappmenu.o(i.SetCommMode))
+<BR>[Address Reference Count : 1]<UL><LI> mappmenu.o(.data)
+</UL>
+<P><STRONG><a name="[28]"></a>SetCommSpeed</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, mappmenu.o(i.SetCommSpeed))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = SetCommSpeed &rArr; SetCommBaudrate &rArr; __ARM_common_switch8
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetCommBaudrate
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mappmenu.o(.data)
+</UL>
+<P><STRONG><a name="[2b]"></a>SetCommTimer</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, mappmenu.o(i.SetCommTimer))
+<BR>[Address Reference Count : 1]<UL><LI> mappmenu.o(.data)
+</UL>
+<P><STRONG><a name="[f2]"></a>SetCommXXFormat</STRONG> (Thumb, 76 bytes, Stack size 4 bytes, mappcomm.o(i.SetCommXXFormat))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = SetCommXXFormat &rArr; __ARM_common_switch8
+</UL>
+<BR>[Calls]<UL><LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_common_switch8
+</UL>
+<BR>[Called By]<UL><LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetCodeInitial
+<LI><a href="#[29]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetCommFormat
+</UL>
+
+<P><STRONG><a name="[5]"></a>SetControlMode</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, mappmenu.o(i.SetControlMode))
+<BR>[Address Reference Count : 1]<UL><LI> mappmenu.o(.data)
+</UL>
+<P><STRONG><a name="[1e]"></a>SetCoolAccRate</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, mappmenu.o(i.SetCoolAccRate))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = SetCoolAccRate &rArr; InitTempRamp
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;InitTempRamp
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mappmenu.o(.data)
+</UL>
+<P><STRONG><a name="[22]"></a>SetCoolAnlgErr</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, mappmenu.o(i.SetCoolAnlgErr))
+<BR>[Address Reference Count : 1]<UL><LI> mappmenu.o(.data)
+</UL>
+<P><STRONG><a name="[20]"></a>SetCoolAnlgMax</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, mappmenu.o(i.SetCoolAnlgMax))
+<BR>[Address Reference Count : 1]<UL><LI> mappmenu.o(.data)
+</UL>
+<P><STRONG><a name="[21]"></a>SetCoolAnlgMin</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, mappmenu.o(i.SetCoolAnlgMin))
+<BR>[Address Reference Count : 1]<UL><LI> mappmenu.o(.data)
+</UL>
+<P><STRONG><a name="[1f]"></a>SetCoolDecRate</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, mappmenu.o(i.SetCoolDecRate))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = SetCoolDecRate &rArr; InitTempRamp
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;InitTempRamp
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mappmenu.o(.data)
+</UL>
+<P><STRONG><a name="[1c]"></a>SetCoolOutput</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, mappmenu.o(i.SetCoolOutput))
+<BR>[Address Reference Count : 1]<UL><LI> mappmenu.o(.data)
+</UL>
+<P><STRONG><a name="[1d]"></a>SetCoolPeriod</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, mappmenu.o(i.SetCoolPeriod))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = SetCoolPeriod &rArr; InitTempRamp
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;InitTempRamp
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mappmenu.o(.data)
+</UL>
+<P><STRONG><a name="[f4]"></a>SetCoolTmpToFed</STRONG> (Thumb, 28 bytes, Stack size 8 bytes, mctrltemp.o(i.SetCoolTmpToFed))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = SetCoolTmpToFed &rArr; __aeabi_idivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_idivmod
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetRxINTmpToFed
+</UL>
+
+<P><STRONG><a name="[f5]"></a>SetCoolTmpToRef</STRONG> (Thumb, 28 bytes, Stack size 8 bytes, mctrltemp.o(i.SetCoolTmpToRef))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = SetCoolTmpToRef &rArr; __aeabi_idivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_idivmod
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetOutpTmpToRef
+</UL>
+
+<P><STRONG><a name="[24]"></a>SetCscdT2Limit</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, mappmenu.o(i.SetCscdT2Limit))
+<BR>[Address Reference Count : 1]<UL><LI> mappmenu.o(.data)
+</UL>
+<P><STRONG><a name="[6]"></a>SetCtrlMethod</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, mappmenu.o(i.SetCtrlMethod))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = SetCtrlMethod &rArr; SetOutputSwitch &rArr; SetOutpRelay
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetOutputSwitch
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mappmenu.o(.data)
+</UL>
+<P><STRONG><a name="[13]"></a>SetCtrlStyle</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, mappmenu.o(i.SetCtrlStyle))
+<BR>[Address Reference Count : 1]<UL><LI> mappmenu.o(.data)
+</UL>
+<P><STRONG><a name="[10]"></a>SetDnErrWarn</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, mappmenu.o(i.SetDnErrWarn))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = SetDnErrWarn &rArr; SetUpDnErrWarnQv &rArr; __aeabi_idivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetUpDnErrWarnQv
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mappmenu.o(.data)
+</UL>
+<P><STRONG><a name="[e]"></a>SetDnLmtWarn</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, mappmenu.o(i.SetDnLmtWarn))
+<BR>[Address Reference Count : 1]<UL><LI> mappmenu.o(.data)
+</UL>
+<P><STRONG><a name="[25]"></a>SetErrCorrectedV</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, mappmenu.o(i.SetErrCorrectedV))
+<BR>[Address Reference Count : 1]<UL><LI> mappmenu.o(.data)
+</UL>
+<P><STRONG><a name="[81]"></a>SetErrorCode</STRONG> (Thumb, 332 bytes, Stack size 24 bytes, mappmain.o(i.SetErrorCode))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = SetErrorCode &rArr; SetOutputSwitch &rArr; SetOutpRelay
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetOutputSwitch
+<LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetOutpDACxV
+<LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetAlamFlag
+<LI><a href="#[b2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetOutputFlag
+<LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DispErrorCode
+<LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_idivmod
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoWarnAutoReset
+<LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Do485Time10MS
+<LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+<LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MappPowerOn
+<LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CalcHeatTmpOutput
+<LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CalcCoolTmpOutput
+<LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoWrite1Register2
+<LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoWrite1Register1
+</UL>
+
+<P><STRONG><a name="[17]"></a>SetHeatAccRate</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, mappmenu.o(i.SetHeatAccRate))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = SetHeatAccRate &rArr; InitTempRamp
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;InitTempRamp
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mappmenu.o(.data)
+</UL>
+<P><STRONG><a name="[1b]"></a>SetHeatAnlgErr</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, mappmenu.o(i.SetHeatAnlgErr))
+<BR>[Address Reference Count : 1]<UL><LI> mappmenu.o(.data)
+</UL>
+<P><STRONG><a name="[19]"></a>SetHeatAnlgMax</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, mappmenu.o(i.SetHeatAnlgMax))
+<BR>[Address Reference Count : 1]<UL><LI> mappmenu.o(.data)
+</UL>
+<P><STRONG><a name="[1a]"></a>SetHeatAnlgMin</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, mappmenu.o(i.SetHeatAnlgMin))
+<BR>[Address Reference Count : 1]<UL><LI> mappmenu.o(.data)
+</UL>
+<P><STRONG><a name="[14]"></a>SetHeatCoolErr</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, mappmenu.o(i.SetHeatCoolErr))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = SetHeatCoolErr &rArr; SetHeatCoolErrQv &rArr; __aeabi_idivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetHeatCoolErrQv
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mappmenu.o(.data)
+</UL>
+<P><STRONG><a name="[f0]"></a>SetHeatCoolErrQv</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, mctrlmain.o(i.SetHeatCoolErrQv))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = SetHeatCoolErrQv &rArr; __aeabi_idivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_idivmod
+</UL>
+<BR>[Called By]<UL><LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetCodeInitial
+<LI><a href="#[14]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetHeatCoolErr
+</UL>
+
+<P><STRONG><a name="[18]"></a>SetHeatDecRate</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, mappmenu.o(i.SetHeatDecRate))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = SetHeatDecRate &rArr; InitTempRamp
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;InitTempRamp
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mappmenu.o(.data)
+</UL>
+<P><STRONG><a name="[15]"></a>SetHeatOutput</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, mappmenu.o(i.SetHeatOutput))
+<BR>[Address Reference Count : 1]<UL><LI> mappmenu.o(.data)
+</UL>
+<P><STRONG><a name="[16]"></a>SetHeatPeriod</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, mappmenu.o(i.SetHeatPeriod))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = SetHeatPeriod &rArr; InitTempRamp
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;InitTempRamp
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mappmenu.o(.data)
+</UL>
+<P><STRONG><a name="[f7]"></a>SetHeatTmpToFed</STRONG> (Thumb, 28 bytes, Stack size 8 bytes, mctrltemp.o(i.SetHeatTmpToFed))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = SetHeatTmpToFed &rArr; __aeabi_idivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_idivmod
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetRxINTmpToFed
+</UL>
+
+<P><STRONG><a name="[f8]"></a>SetHeatTmpToRef</STRONG> (Thumb, 28 bytes, Stack size 8 bytes, mctrltemp.o(i.SetHeatTmpToRef))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = SetHeatTmpToRef &rArr; __aeabi_idivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_idivmod
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetOutpTmpToRef
+</UL>
+
+<P><STRONG><a name="[c]"></a>SetInnerTemp</STRONG> (Thumb, 26 bytes, Stack size 8 bytes, mappmenu.o(i.SetInnerTemp))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = SetInnerTemp &rArr; SetOutpTmpToRef &rArr; SetHeatTmpToRef &rArr; __aeabi_idivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetOutpTmpToRef
+<LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetInnerTempFlag
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mappmenu.o(.data)
+</UL>
+<P><STRONG><a name="[d4]"></a>SetLockFlag</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, mappshow.o(i.SetLockFlag))
+<BR><BR>[Called By]<UL><LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetCodeInitial
+<LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MenuTime1000MS
+<LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MappMenu100MS
+<LI><a href="#[8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetTmpSetLock
+</UL>
+
+<P><STRONG><a name="[2e]"></a>SetMnVertion</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, mappmenu.o(i.SetMnVertion))
+<BR>[Address Reference Count : 1]<UL><LI> mappmenu.o(.data)
+</UL>
+<P><STRONG><a name="[f9]"></a>SetOut1Flag</STRONG> (Thumb, 120 bytes, Stack size 0 bytes, mappshow.o(i.SetOut1Flag))
+<BR><BR>[Called By]<UL><LI><a href="#[b9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetOutputSwitch
+<LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetOutpDACxV
+<LI><a href="#[fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetOutpDC12V
+</UL>
+
+<P><STRONG><a name="[fc]"></a>SetOut2Flag</STRONG> (Thumb, 32 bytes, Stack size 0 bytes, mappshow.o(i.SetOut2Flag))
+<BR><BR>[Called By]<UL><LI><a href="#[b9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetOutputSwitch
+<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetOutpRelay
+</UL>
+
+<P><STRONG><a name="[84]"></a>SetOutpDACxV</STRONG> (Thumb, 50 bytes, Stack size 16 bytes, mctrloutp.o(i.SetOutpDACxV))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = SetOutpDACxV
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetOut1Flag
+<LI><a href="#[c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uidivmod
+</UL>
+<BR>[Called By]<UL><LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetErrorCode
+<LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CalcHeatTmpOutput
+<LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CalcCoolTmpOutput
+</UL>
+
+<P><STRONG><a name="[fa]"></a>SetOutpDC12V</STRONG> (Thumb, 60 bytes, Stack size 8 bytes, mctrloutp.o(i.SetOutpDC12V))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = SetOutpDC12V
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetOut1Flag
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetOutputSwitch
+<LI><a href="#[4c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMER0_IRQHandler
+</UL>
+
+<P><STRONG><a name="[fb]"></a>SetOutpRelay</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, mctrloutp.o(i.SetOutpRelay))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = SetOutpRelay
+</UL>
+<BR>[Calls]<UL><LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetOut2Flag
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetOutputSwitch
+<LI><a href="#[4c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMER0_IRQHandler
+</UL>
+
+<P><STRONG><a name="[ba]"></a>SetOutpTmpToRef</STRONG> (Thumb, 30 bytes, Stack size 8 bytes, mctrlmain.o(i.SetOutpTmpToRef))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = SetOutpTmpToRef &rArr; SetHeatTmpToRef &rArr; __aeabi_idivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetHeatTmpToRef
+<LI><a href="#[f5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetCoolTmpToRef
+</UL>
+<BR>[Called By]<UL><LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetCodeInitial
+<LI><a href="#[bc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoXnScanLoop
+<LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoWrite1Register2
+<LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoWrite1Register1
+<LI><a href="#[a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetTmpUpLimit
+<LI><a href="#[b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetTmpDnLimit
+<LI><a href="#[9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetSensorType
+<LI><a href="#[c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetInnerTemp
+<LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Menu_MainShow
+</UL>
+
+<P><STRONG><a name="[b9]"></a>SetOutputSwitch</STRONG> (Thumb, 82 bytes, Stack size 8 bytes, mctrlmain.o(i.SetOutputSwitch))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = SetOutputSwitch &rArr; SetOutpRelay
+</UL>
+<BR>[Calls]<UL><LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetOutpRelay
+<LI><a href="#[fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetOutpDC12V
+<LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetOut2Flag
+<LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetOut1Flag
+</UL>
+<BR>[Called By]<UL><LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetCodeInitial
+<LI><a href="#[bc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoXnScanLoop
+<LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetErrorCode
+<LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoWrite1Register2
+<LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoWrite1Register1
+<LI><a href="#[6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetCtrlMethod
+<LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Menu_MainShow
+</UL>
+
+<P><STRONG><a name="[fd]"></a>SetParaDefault</STRONG> (Thumb, 34 bytes, Stack size 8 bytes, mappmenu.o(i.SetParaDefault))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = SetParaDefault &rArr; SetCodeInitial &rArr; SetOutpTmpToRef &rArr; SetHeatTmpToRef &rArr; __aeabi_idivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetCodeDefault
+<LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetCodeInitial
+<LI><a href="#[b6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetParaChkSum
+</UL>
+<BR>[Called By]<UL><LI><a href="#[2c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetRstDefault
+</UL>
+
+<P><STRONG><a name="[e5]"></a>SetParameterCode</STRONG> (Thumb, 102 bytes, Stack size 16 bytes, mappmenu.o(i.SetParameterCode))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = SetParameterCode
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetIfRWFlag
+<LI><a href="#[b6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetParaChkSum
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Menu_SubFunc
+</UL>
+
+<P><STRONG><a name="[2c]"></a>SetRstDefault</STRONG> (Thumb, 16 bytes, Stack size 8 bytes, mappmenu.o(i.SetRstDefault))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = SetRstDefault &rArr; SetParaDefault &rArr; SetCodeInitial &rArr; SetOutpTmpToRef &rArr; SetHeatTmpToRef &rArr; __aeabi_idivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetParaDefault
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mappmenu.o(.data)
+</UL>
+<P><STRONG><a name="[ff]"></a>SetRxINTmpToFed</STRONG> (Thumb, 36 bytes, Stack size 8 bytes, mctrlmain.o(i.SetRxINTmpToFed))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = SetRxINTmpToFed &rArr; SetHeatTmpToFed &rArr; __aeabi_idivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetHeatTmpToFed
+<LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetCoolTmpToFed
+</UL>
+<BR>[Called By]<UL><LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[100]"></a>SetRxINTmpToSub</STRONG> (Thumb, 80 bytes, Stack size 8 bytes, mctrlmain.o(i.SetRxINTmpToSub))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = SetRxINTmpToSub &rArr; __aeabi_idivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_idivmod
+</UL>
+<BR>[Called By]<UL><LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[9]"></a>SetSensorType</STRONG> (Thumb, 386 bytes, Stack size 16 bytes, mappmenu.o(i.SetSensorType))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = SetSensorType &rArr; SetOutpTmpToRef &rArr; SetHeatTmpToRef &rArr; __aeabi_idivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetOutpTmpToRef
+<LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LHA_Config_Set
+<LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetInnerTempFlag
+<LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_idivmod
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mappmenu.o(.data)
+</UL>
+<P><STRONG><a name="[2d]"></a>SetSwVertion</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, mappmenu.o(i.SetSwVertion))
+<BR>[Address Reference Count : 1]<UL><LI> mappmenu.o(.data)
+</UL>
+<P><STRONG><a name="[f3]"></a>SetTempFlag</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, mappshow.o(i.SetTempFlag))
+<BR><BR>[Called By]<UL><LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetCodeInitial
+<LI><a href="#[26]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetTemperatxUnit
+</UL>
+
+<P><STRONG><a name="[26]"></a>SetTemperatxUnit</STRONG> (Thumb, 126 bytes, Stack size 8 bytes, mappmenu.o(i.SetTemperatxUnit))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = SetTemperatxUnit &rArr; __aeabi_idivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetTempFlag
+<LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetTempFlag
+<LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_idivmod
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mappmenu.o(.data)
+</UL>
+<P><STRONG><a name="[b]"></a>SetTmpDnLimit</STRONG> (Thumb, 250 bytes, Stack size 16 bytes, mappmenu.o(i.SetTmpDnLimit))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = SetTmpDnLimit &rArr; SetOutpTmpToRef &rArr; SetHeatTmpToRef &rArr; __aeabi_idivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetOutpTmpToRef
+<LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetInnerTempFlag
+<LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_idivmod
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mappmenu.o(.data)
+</UL>
+<P><STRONG><a name="[8]"></a>SetTmpSetLock</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, mappmenu.o(i.SetTmpSetLock))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = SetTmpSetLock
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetLockFlag
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mappmenu.o(.data)
+</UL>
+<P><STRONG><a name="[a]"></a>SetTmpUpLimit</STRONG> (Thumb, 250 bytes, Stack size 16 bytes, mappmenu.o(i.SetTmpUpLimit))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = SetTmpUpLimit &rArr; SetOutpTmpToRef &rArr; SetHeatTmpToRef &rArr; __aeabi_idivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetOutpTmpToRef
+<LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetInnerTempFlag
+<LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_idivmod
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mappmenu.o(.data)
+</UL>
+<P><STRONG><a name="[ef]"></a>SetUpDnErrWarnQv</STRONG> (Thumb, 44 bytes, Stack size 8 bytes, mctrlwarn.o(i.SetUpDnErrWarnQv))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = SetUpDnErrWarnQv &rArr; __aeabi_idivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_idivmod
+</UL>
+<BR>[Called By]<UL><LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetCodeInitial
+<LI><a href="#[f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetUpErrWarn
+<LI><a href="#[10]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetDnErrWarn
+</UL>
+
+<P><STRONG><a name="[f]"></a>SetUpErrWarn</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, mappmenu.o(i.SetUpErrWarn))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = SetUpErrWarn &rArr; SetUpDnErrWarnQv &rArr; __aeabi_idivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetUpDnErrWarnQv
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mappmenu.o(.data)
+</UL>
+<P><STRONG><a name="[d]"></a>SetUpLmtWarn</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, mappmenu.o(i.SetUpLmtWarn))
+<BR>[Address Reference Count : 1]<UL><LI> mappmenu.o(.data)
+</UL>
+<P><STRONG><a name="[11]"></a>SetWarnReset</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, mappmenu.o(i.SetWarnReset))
+<BR>[Address Reference Count : 1]<UL><LI> mappmenu.o(.data)
+</UL>
+<P><STRONG><a name="[12]"></a>SetWarnSwitch</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, mappmenu.o(i.SetWarnSwitch))
+<BR>[Address Reference Count : 1]<UL><LI> mappmenu.o(.data)
+</UL>
+<P><STRONG><a name="[7]"></a>SetXRunSwitch</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, mappmenu.o(i.SetXRunSwitch))
+<BR>[Address Reference Count : 1]<UL><LI> mappmenu.o(.data)
+</UL>
+<P><STRONG><a name="[31]"></a>SetqPID01Kd</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, mappmenu.o(i.SetqPID01Kd))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = SetqPID01Kd &rArr; InitPidParm &rArr; __aeabi_idivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;InitPidParm
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mappmenu.o(.data)
+</UL>
+<P><STRONG><a name="[30]"></a>SetqPID01Ki</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, mappmenu.o(i.SetqPID01Ki))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = SetqPID01Ki &rArr; InitPidParm &rArr; __aeabi_idivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;InitPidParm
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mappmenu.o(.data)
+</UL>
+<P><STRONG><a name="[2f]"></a>SetqPID01Kp</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, mappmenu.o(i.SetqPID01Kp))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = SetqPID01Kp &rArr; InitPidParm &rArr; __aeabi_idivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;InitPidParm
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mappmenu.o(.data)
+</UL>
+<P><STRONG><a name="[34]"></a>SetqPID02Kd</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, mappmenu.o(i.SetqPID02Kd))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = SetqPID02Kd &rArr; InitPidParm &rArr; __aeabi_idivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;InitPidParm
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mappmenu.o(.data)
+</UL>
+<P><STRONG><a name="[33]"></a>SetqPID02Ki</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, mappmenu.o(i.SetqPID02Ki))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = SetqPID02Ki &rArr; InitPidParm &rArr; __aeabi_idivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;InitPidParm
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mappmenu.o(.data)
+</UL>
+<P><STRONG><a name="[32]"></a>SetqPID02Kp</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, mappmenu.o(i.SetqPID02Kp))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = SetqPID02Kp &rArr; InitPidParm &rArr; __aeabi_idivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;InitPidParm
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mappmenu.o(.data)
+</UL>
+<P><STRONG><a name="[37]"></a>SetqPID11Kd</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, mappmenu.o(i.SetqPID11Kd))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = SetqPID11Kd &rArr; InitPidParm &rArr; __aeabi_idivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;InitPidParm
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mappmenu.o(.data)
+</UL>
+<P><STRONG><a name="[36]"></a>SetqPID11Ki</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, mappmenu.o(i.SetqPID11Ki))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = SetqPID11Ki &rArr; InitPidParm &rArr; __aeabi_idivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;InitPidParm
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mappmenu.o(.data)
+</UL>
+<P><STRONG><a name="[35]"></a>SetqPID11Kp</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, mappmenu.o(i.SetqPID11Kp))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = SetqPID11Kp &rArr; InitPidParm &rArr; __aeabi_idivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;InitPidParm
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mappmenu.o(.data)
+</UL>
+<P><STRONG><a name="[3d]"></a>SysTick_Handler</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, mappmain.o(i.SysTick_Handler))
+<BR>[Address Reference Count : 1]<UL><LI> startup_cms32m67xx.o(RESET)
+</UL>
+<P><STRONG><a name="[56]"></a>SystemInit</STRONG> (Thumb, 116 bytes, Stack size 4 bytes, system_cms32m67xx.o(i.SystemInit))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = SystemInit &rArr; CLK_GetHocoFreq &rArr; __ARM_common_switch8
+</UL>
+<BR>[Calls]<UL><LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_GetHocoFreq
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_cms32m67xx.o(.text)
+</UL>
+<P><STRONG><a name="[10c]"></a>T1TempValue</STRONG> (Thumb, 28 bytes, Stack size 0 bytes, mctrlrxin.o(i.T1TempValue))
+<BR><BR>[Called By]<UL><LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[10d]"></a>T2TempValue</STRONG> (Thumb, 28 bytes, Stack size 0 bytes, mctrlrxin.o(i.T2TempValue))
+<BR><BR>[Called By]<UL><LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[91]"></a>TC_Panel_Calc</STRONG> (Thumb, 88 bytes, Stack size 24 bytes, mctrlrxin.o(i.TC_Panel_Calc))
+<BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = TC_Panel_Calc &rArr; __aeabi_dmul
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dmul
+<LI><a href="#[6e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_i2d
+<LI><a href="#[e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_d2iz
+</UL>
+<BR>[Called By]<UL><LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CalcTempValue
+</UL>
+
+<P><STRONG><a name="[4c]"></a>TIMER0_IRQHandler</STRONG> (Thumb, 214 bytes, Stack size 8 bytes, mctrlmain.o(i.TIMER0_IRQHandler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = TIMER0_IRQHandler &rArr; SetOutpRelay
+</UL>
+<BR>[Calls]<UL><LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetOutpRelay
+<LI><a href="#[fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetOutpDC12V
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_cms32m67xx.o(RESET)
+</UL>
+<P><STRONG><a name="[102]"></a>TMRConfiguration</STRONG> (Thumb, 54 bytes, Stack size 8 bytes, drvformain.o(i.TMRConfiguration))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = TMRConfiguration &rArr; NVIC_SetPriority
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NVIC_SetPriority
+</UL>
+<BR>[Called By]<UL><LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[4a]"></a>UART1_IRQHandler</STRONG> (Thumb, 138 bytes, Stack size 0 bytes, mappcomm.o(i.UART1_IRQHandler))
+<BR>[Address Reference Count : 1]<UL><LI> startup_cms32m67xx.o(RESET)
+</UL>
+<P><STRONG><a name="[106]"></a>UARTConfiguration</STRONG> (Thumb, 30 bytes, Stack size 0 bytes, drvforuart.o(i.UARTConfiguration))
+<BR><BR>[Called By]<UL><LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[7f]"></a>__ARM_common_switch8</STRONG> (Thumb, 28 bytes, Stack size 8 bytes, system_cms32m67xx.o(i.__ARM_common_switch8))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = __ARM_common_switch8
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MappPowerOn
+<LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoLedKeyScan
+<LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_GetHocoFreq
+<LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoWrite1Register2
+<LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoReadnRegister2
+<LI><a href="#[f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetCommXXFormat
+<LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetCommBaudrate
+<LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PostArray
+<LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NegatArray
+<LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LHA7918_Read
+</UL>
+
+<P><STRONG><a name="[a1]"></a>drvLightLed</STRONG> (Thumb, 94 bytes, Stack size 8 bytes, drvforpanel.o(i.drvLightLed))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = drvLightLed
+</UL>
+<BR>[Calls]<UL><LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_Delay
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoLedKeyScan
+</UL>
+
+<P><STRONG><a name="[61]"></a>main</STRONG> (Thumb, 654 bytes, Stack size 0 bytes, mappmain.o(i.main))
+<BR><BR>[Stack]<UL><LI>Max Depth = 160<LI>Call Chain = main &rArr; MappPowerOn &rArr; SetCodeInitial &rArr; SetOutpTmpToRef &rArr; SetHeatTmpToRef &rArr; __aeabi_idivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[10d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;T2TempValue
+<LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;T1TempValue
+<LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetRxINTmpToSub
+<LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetRxINTmpToFed
+<LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MenuTime1000MS
+<LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MappUxComTime
+<LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MappMenu100MS
+<LI><a href="#[cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MappMainMenu
+<LI><a href="#[bc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoXnScanLoop
+<LI><a href="#[b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoWarnAutoReset
+<LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoModbusScan
+<LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoMainCtrlLoop
+<LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoLedBitScan
+<LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Do485Time10MS
+<LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DispShowFrc2
+<LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DispShowFrc1
+<LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DispErrorCode
+<LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CalcTempValue
+<LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADCPanelUpdate
+<LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetErrorCode
+<LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MappTimeCnt
+<LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MappPowerOn
+<LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UARTConfiguration
+<LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetMsgKeyData
+<LI><a href="#[e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetMsgKeyCnt
+<LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DoLedKeyScan
+<LI><a href="#[102]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TMRConfiguration
+<LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SYSConfiguration
+<LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIOConfiguration
+<LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CCPConfiguration
+<LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADCConfiguration
+</UL>
+<BR>[Called By]<UL><LI><a href="#[60]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry_main
+</UL>
+
+<P><STRONG><a name="[92]"></a>__aeabi_fadd</STRONG> (Thumb, 0 bytes, Stack size 16 bytes, faddsub.o(x$fpl$fadd))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = __aeabi_fadd
+</UL>
+<BR>[Called By]<UL><LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CalcTempValue
+</UL>
+
+<P><STRONG><a name="[10e]"></a>_fadd</STRONG> (Thumb, 134 bytes, Stack size 16 bytes, faddsub.o(x$fpl$fadd), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fsub1
+</UL>
+
+<P><STRONG><a name="[8c]"></a>__aeabi_cfcmple</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, flef.o(x$fpl$fleqf))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = __aeabi_cfcmple
+</UL>
+<BR>[Called By]<UL><LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CalcTempValue
+</UL>
+
+<P><STRONG><a name="[110]"></a>_fcmple</STRONG> (Thumb, 78 bytes, Stack size 8 bytes, flef.o(x$fpl$fleqf), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__fpl_fcmp_InfNaN
+</UL>
+
+<P><STRONG><a name="[8d]"></a>__aeabi_fmul</STRONG> (Thumb, 0 bytes, Stack size 16 bytes, fmul.o(x$fpl$fmul))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = __aeabi_fmul
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MappMenu100MS
+<LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CalcTempValue
+<LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LHA7918_LB
+</UL>
+
+<P><STRONG><a name="[14e]"></a>_fmul</STRONG> (Thumb, 172 bytes, Stack size 16 bytes, fmul.o(x$fpl$fmul), UNUSED)
+
+<P><STRONG><a name="[c5]"></a>__aeabi_fsub</STRONG> (Thumb, 0 bytes, Stack size 16 bytes, faddsub.o(x$fpl$fsub))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = __aeabi_fsub
+</UL>
+<BR>[Called By]<UL><LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LHA7918_LB
+</UL>
+
+<P><STRONG><a name="[111]"></a>_fsub</STRONG> (Thumb, 204 bytes, Stack size 16 bytes, faddsub.o(x$fpl$fsub), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[112]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fadd1
+</UL>
+<P>
+<H3>
+Local Symbols
+</H3>
+<P><STRONG><a name="[c9]"></a>NVIC_EnableIRQ</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, drvformain.o(i.NVIC_EnableIRQ))
+<BR><BR>[Called By]<UL><LI><a href="#[dd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NVICConfiguration
+<LI><a href="#[c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LVDConfiguration
+</UL>
+
+<P><STRONG><a name="[ca]"></a>NVIC_SetPriority</STRONG> (Thumb, 110 bytes, Stack size 8 bytes, drvformain.o(i.NVIC_SetPriority))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = NVIC_SetPriority
+</UL>
+<BR>[Called By]<UL><LI><a href="#[102]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TMRConfiguration
+<LI><a href="#[dd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NVICConfiguration
+<LI><a href="#[c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LVDConfiguration
+</UL>
+
+<P><STRONG><a name="[69]"></a>_dadd1</STRONG> (Thumb, 290 bytes, Stack size 20 bytes, daddsub.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_drsb
+<LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_dsub
+<LI><a href="#[67]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_dadd
+</UL>
+
+<P><STRONG><a name="[68]"></a>_dsub1</STRONG> (Thumb, 470 bytes, Stack size 40 bytes, daddsub.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_drsb
+<LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_dsub
+<LI><a href="#[67]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_dadd
+</UL>
+
+<P><STRONG><a name="[112]"></a>_fadd1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, faddsub.o(x$fpl$fadd), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[111]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fsub
+</UL>
+
+<P><STRONG><a name="[10f]"></a>_fsub1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, faddsub.o(x$fpl$fsub), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[10e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fadd
+</UL>
+<P>
+<H3>
+Undefined Global Symbols
+</H3>
+<P><STRONG><a name="[7a]"></a>_call_atexit_fns</STRONG> (ARM, 0 bytes, Stack size 0 bytes, UNDEFINED)
+<BR><BR>[Called By]<UL><LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;exit
+</UL>
+<HR></body></html>

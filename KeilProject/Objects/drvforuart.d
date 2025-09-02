@@ -1,0 +1,9 @@
+.\objects\drvforuart.o: ..\CmsDriver\drvForUart.c
+.\objects\drvforuart.o: ..\CmsDriver\drvForMain.h
+.\objects\drvforuart.o: ..\CmsDevice\CMS32M67xx.h
+.\objects\drvforuart.o: ..\CmsDevice\core_cm0plus.h
+.\objects\drvforuart.o: D:\Program\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\drvforuart.o: ..\CmsDevice\CMSIS\core_cmInstr.h
+.\objects\drvforuart.o: ..\CmsDevice\CMSIS\cmsis_armcc.h
+.\objects\drvforuart.o: ..\CmsDevice\CMSIS\core_cmFunc.h
+.\objects\drvforuart.o: ..\CmsDevice\system_CMS32M67xx.h

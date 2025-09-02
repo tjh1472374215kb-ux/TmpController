@@ -1,0 +1,10 @@
+.\objects\drvforpanel.o: ..\CmsDriver\drvForPanel.c
+.\objects\drvforpanel.o: ..\AppSource\MainDefine.h
+.\objects\drvforpanel.o: ..\CmsDriver\drvForMain.h
+.\objects\drvforpanel.o: ..\CmsDevice\CMS32M67xx.h
+.\objects\drvforpanel.o: ..\CmsDevice\core_cm0plus.h
+.\objects\drvforpanel.o: D:\Program\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\drvforpanel.o: ..\CmsDevice\CMSIS\core_cmInstr.h
+.\objects\drvforpanel.o: ..\CmsDevice\CMSIS\cmsis_armcc.h
+.\objects\drvforpanel.o: ..\CmsDevice\CMSIS\core_cmFunc.h
+.\objects\drvforpanel.o: ..\CmsDevice\system_CMS32M67xx.h

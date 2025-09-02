@@ -1,0 +1,9 @@
+.\objects\drvforspi.o: ..\CmsDriver\drvForSpi.c
+.\objects\drvforspi.o: ..\CmsDriver\drvForMain.h
+.\objects\drvforspi.o: ..\CmsDevice\CMS32M67xx.h
+.\objects\drvforspi.o: ..\CmsDevice\core_cm0plus.h
+.\objects\drvforspi.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\drvforspi.o: ..\CmsDevice\CMSIS\core_cmInstr.h
+.\objects\drvforspi.o: ..\CmsDevice\CMSIS\cmsis_armcc.h
+.\objects\drvforspi.o: ..\CmsDevice\CMSIS\core_cmFunc.h
+.\objects\drvforspi.o: ..\CmsDevice\system_CMS32M67xx.h

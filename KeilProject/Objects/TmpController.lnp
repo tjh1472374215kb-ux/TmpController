@@ -1,0 +1,27 @@
+--cpu Cortex-M0+
+".\objects\system_cms32m67xx.o"
+".\objects\startup_cms32m67xx.o"
+".\objects\drvforadc.o"
+".\objects\drvforccp.o"
+".\objects\drvforfmc.o"
+".\objects\drvforgpio.o"
+".\objects\drvformain.o"
+".\objects\drvforpanel.o"
+".\objects\drvforuart.o"
+".\objects\drvforlha.o"
+".\objects\mappmain.o"
+".\objects\mappcode.o"
+".\objects\mappmenu.o"
+".\objects\mappshow.o"
+".\objects\mappcomm.o"
+".\objects\mcfuncpid.o"
+".\objects\mctrloutp.o"
+".\objects\mctrlmain.o"
+".\objects\mctrltemp.o"
+".\objects\mctrlrxin.o"
+".\objects\mctrlxnin.o"
+".\objects\mctrlwarn.o"
+--strict --scatter ".\Objects\TmpController.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\TmpController.map" -o .\Objects\TmpController.axf

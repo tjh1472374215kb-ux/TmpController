@@ -1,0 +1,11 @@
+.\objects\mappcode.o: ..\AppSource\MappCode.c
+.\objects\mappcode.o: ..\AppSource\MappCode.h
+.\objects\mappcode.o: ..\AppSource\MainDefine.h
+.\objects\mappcode.o: ..\CmsDriver\drvForMain.h
+.\objects\mappcode.o: ..\CmsDevice\CMS32M67xx.h
+.\objects\mappcode.o: ..\CmsDevice\core_cm0plus.h
+.\objects\mappcode.o: D:\Program\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\mappcode.o: ..\CmsDevice\CMSIS\core_cmInstr.h
+.\objects\mappcode.o: ..\CmsDevice\CMSIS\cmsis_armcc.h
+.\objects\mappcode.o: ..\CmsDevice\CMSIS\core_cmFunc.h
+.\objects\mappcode.o: ..\CmsDevice\system_CMS32M67xx.h

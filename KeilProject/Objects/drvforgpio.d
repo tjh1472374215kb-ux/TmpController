@@ -1,0 +1,9 @@
+.\objects\drvforgpio.o: ..\CmsDriver\drvForGpio.c
+.\objects\drvforgpio.o: ..\CmsDriver\drvForMain.h
+.\objects\drvforgpio.o: ..\CmsDevice\CMS32M67xx.h
+.\objects\drvforgpio.o: ..\CmsDevice\core_cm0plus.h
+.\objects\drvforgpio.o: D:\Program\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\drvforgpio.o: ..\CmsDevice\CMSIS\core_cmInstr.h
+.\objects\drvforgpio.o: ..\CmsDevice\CMSIS\cmsis_armcc.h
+.\objects\drvforgpio.o: ..\CmsDevice\CMSIS\core_cmFunc.h
+.\objects\drvforgpio.o: ..\CmsDevice\system_CMS32M67xx.h

@@ -1,0 +1,9 @@
+.\objects\drvforlha.o: ..\CmsDriver\drvForLHA.c
+.\objects\drvforlha.o: ..\CmsDriver\drvForMain.h
+.\objects\drvforlha.o: ..\CmsDevice\CMS32M67xx.h
+.\objects\drvforlha.o: ..\CmsDevice\core_cm0plus.h
+.\objects\drvforlha.o: D:\Program\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\drvforlha.o: ..\CmsDevice\CMSIS\core_cmInstr.h
+.\objects\drvforlha.o: ..\CmsDevice\CMSIS\cmsis_armcc.h
+.\objects\drvforlha.o: ..\CmsDevice\CMSIS\core_cmFunc.h
+.\objects\drvforlha.o: ..\CmsDevice\system_CMS32M67xx.h
